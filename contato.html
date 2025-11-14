@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato</title>
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="img/logo/matriz-favicon.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="img/logo/matriz-favicon.png" />
+  <link rel="shortcut icon" href="img/logo/matriz-favicon.png" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Estilo personalizado -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo/logo-versao-02-horizontal.png" alt="Logo" style="height: 40px;" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="eletrica.html">Elétrica</a></li>
+          <li class="nav-item"><a class="nav-link" href="rede.html">Rede</a></li>
+          <li class="nav-item"><a class="nav-link" href="iot.html">IoT</a></li>
+          <li class="nav-item"><a class="nav-link" href="projetos.html">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seção de Contato com Imagem -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h1 class="mb-4 text-center">Entre em Contato</h1>
+      <p class="text-center mb-5">Fale com nossa equipe e solicite um orçamento personalizado.</p>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <img src="img/contato.jpeg" alt="Imagem de contato" class="img-fluid rounded shadow" />
+        </div>
+        <div class="col-md-6">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Nome" required />
+            </div>
+            <div class="col-md-6">
+              <input type="email" class="form-control" placeholder="E-mail" required />
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="Assunto" />
+            </div>
+            <div class="col-12">
+              <textarea class="form-control" rows="5" placeholder="Mensagem" required></textarea>
+            </div>
+            <div class="col-12 text-center">
+              <button type="submit" class="btn btn-success btn-lg">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Instalações Inteligentes. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
