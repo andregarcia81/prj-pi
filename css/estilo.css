@@ -6,6 +6,32 @@ body {
   line-height: 1.6;
 }
 
+/* Sticky layout: footer at bottom */
+html,
+body {
+  height: 100%;
+}
+
+/* Prevent layout shift when scrollbar appears/disappears */
+html {
+  scrollbar-gutter: stable;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main#spa-content {
+  flex: 1 0 auto;
+  padding-top: 80px; /* Espaço para o header fixo */
+}
+
 h1,
 h2,
 h3,
@@ -26,7 +52,43 @@ p.lead {
 .navbar {
   font-family: 'Montserrat', sans-serif;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0;
+}
+
+/* Consolidated header style (replace bg-dark usage) */
+.site-header {
+  background-color: #333333;
+  color: #ffffff;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+}
+
+.site-header > .container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+}
+
+.site-header .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.3s ease;
+}
+
+.site-header .nav-link:hover {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.site-header .nav-link:focus,
+.site-header .nav-link.active {
+  color: #ffffff;
+  font-weight: 500;
 }
 
 .navbar-brand {
@@ -66,8 +128,67 @@ p.lead {
 /* Rodapé */
 footer {
   font-size: 0.9rem;
+}
+
+.site-footer {
+  margin-top: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
   background-color: #333333;
   color: #ffffff;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Unified footer text positioning for SPA effect */
+.site-footer > .container,
+.site-footer > .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  padding: 0.75rem 0;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+}
+
+.site-footer p {
+  display: inline-block;
+  margin: 0;
+  letter-spacing: 0.3px;
+  line-height: 1.4;
+}
+
+/* Subtle entrance (runs once if footer injected) */
+.site-footer {
+  animation: footerFade 400ms ease;
+}
+
+@keyframes footerFade {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fixed footer mode (per-page) */
+.has-fixed-footer .site-footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1020;
+}
+
+.has-fixed-footer main#spa-content {
+  padding-bottom: var(
+    --footer-offset,
+    84px
+  ); /* keep content clear of fixed footer */
 }
 
 /* Imagens */
@@ -124,4 +245,16 @@ section {
   .btn {
     width: 100%;
   }
+}
+
+/* SPA transitions */
+#spa-content {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+
+#spa-content.spa-fade-out {
+  opacity: 0;
+  transform: translateY(8px);
 }
