@@ -35,25 +35,32 @@
     <!-- Estilo personalizado -->
     <link rel="stylesheet" href="css/estilo.css" />
   </head>
-  <body>
+  <body class="has-fixed-footer">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark site-header">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img src="img/logo/logo-header.svg" alt="Instalações Inteligentes" />
         </a>
         <button
           class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
+          <!--
+          Original
+          footer
+          with
+          Bootstrap
+          classes
+          --
         >
+          <!-- Updated to remove Bootstrap color classes -->
+          type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          &copy; 2025 Instalações Inteligentes. Todos os direitos reservados.
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Início</a>
+              <a class="nav-link" href="index.html">Início</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="eletrica.html">Elétrica</a>
@@ -75,57 +82,64 @@
       </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="bg-light text-center py-5">
-      <div class="container">
-        <img
-          src="img/logo/logo.svg"
-          alt="Logo"
-          class="mb-4"
-          style="max-width: 300px"
-        />
-        <h1 class="display-5 fw-bold">Tecnologia que conecta</h1>
-        <p class="lead">
-          Soluções em instalações elétricas, redes e IoT para ambientes
-          inteligentes.
-        </p>
-        <a href="contato.html" class="btn btn-primary btn-lg"
-          >Solicite um orçamento</a
-        >
-      </div>
-    </section>
+    <main id="spa-content" class="spa-fade-in">
+      <!-- Hero Section -->
+      <section class="bg-light text-center py-5">
+        <div class="container">
+          <img
+            src="img/logo/logo.svg"
+            alt="Logo"
+            class="mb-4"
+            style="max-width: 300px"
+          />
+          <h1 class="display-5 fw-bold">Tecnologia que conecta</h1>
+          <p class="lead">
+            Soluções em instalações elétricas, redes e IoT para ambientes
+            inteligentes.
+          </p>
+          <a href="contato.html" class="btn btn-primary btn-lg"
+            >Solicite um orçamento</a
+          >
+        </div>
+      </section>
 
-    <!-- Serviços -->
-    <section class="py-5 bg-white">
-      <div class="container">
-        <h2 class="text-center mb-4">Nossos Serviços</h2>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <img src="img/eletrica.webp" class="img-fluid rounded mb-3" />
-            <h4>Instalações Elétricas</h4>
-            <p>Projetos seguros e eficientes para residências e empresas.</p>
-          </div>
-          <div class="col-md-4">
-            <img src="img/rede.jpg" class="img-fluid rounded mb-3" />
-            <h4>Cabeamento Estruturado</h4>
-            <p>Organização e desempenho para redes de dados.</p>
-          </div>
-          <div class="col-md-4">
-            <img src="img/iot.jpg" class="img-fluid rounded mb-3" />
-            <h4>Internet das Coisas</h4>
-            <p>Automação e controle inteligente de ambientes.</p>
+      <!-- Serviços -->
+      <section class="py-5 bg-white">
+        <div class="container">
+          <h2 class="text-center mb-4">Nossos Serviços</h2>
+          <div class="row text-center">
+            <div class="col-md-4">
+              <img src="img/eletrica.webp" class="img-fluid rounded mb-3" />
+              <h4>Instalações Elétricas</h4>
+              <p>Projetos seguros e eficientes para residências e empresas.</p>
+            </div>
+            <div class="col-md-4">
+              <img src="img/rede.jpg" class="img-fluid rounded mb-3" />
+              <h4>Cabeamento Estruturado</h4>
+              <p>Organização e desempenho para redes de dados.</p>
+            </div>
+            <div class="col-md-4">
+              <img src="img/iot.jpg" class="img-fluid rounded mb-3" />
+              <h4>Internet das Coisas</h4>
+              <p>Automação e controle inteligente de ambientes.</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <!-- Rodapé -->
-    <footer class="bg-dark text-white text-center py-3">
-      <p>&copy; 2025 Instalações Inteligentes. Todos os direitos reservados.</p>
+    <footer class="site-footer">
+      <div class="container-fluid">
+        <p class="mb-0">
+          &copy; 2025 Instalações Inteligentes. Todos os direitos reservados.
+        </p>
+      </div>
     </footer>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/spa.js"></script>
   </body>
 </html>
