@@ -1,15 +1,19 @@
 /* Tipografia geral */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
   color: #333333;
   line-height: 1.6;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #007AFF;
+  color: #007aff;
 }
 
 p.lead {
@@ -22,21 +26,34 @@ p.lead {
 .navbar {
   font-family: 'Montserrat', sans-serif;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  padding: 0.5rem 0;
 }
 
 .navbar-brand img {
-  max-height: 40px;
+  height: 80px;
+  width: auto;
+  transition: transform 0.3s ease;
+  border-radius: 0;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.05);
 }
 
 /* Botões personalizados */
 .btn-primary {
-  background-color: #007AFF;
+  background-color: #007aff;
   border: none;
   font-weight: 600;
 }
 
 .btn-success {
-  background-color: #00C9A7;
+  background-color: #00c9a7;
   border: none;
   font-weight: 600;
 }
@@ -61,7 +78,8 @@ img {
 }
 
 /* Formulário */
-input, textarea {
+input,
+textarea {
   font-family: 'Poppins', sans-serif;
   border-radius: 6px;
   border: 1px solid #ccc;
@@ -70,7 +88,7 @@ input, textarea {
 
 input:focus,
 textarea:focus {
-  border-color: #007AFF;
+  border-color: #007aff;
   outline: none;
   box-shadow: 0 0 5px rgba(0, 122, 255, 0.3);
 }
