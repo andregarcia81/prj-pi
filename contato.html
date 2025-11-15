@@ -92,11 +92,12 @@
             />
           </div>
           <div class="col-md-6">
-            <form class="row g-3">
+            <form id="contact-form" class="row g-3" method="POST" action="https://formspree.io/f/xdkyergz" novalidate>
               <div class="col-md-6">
                 <input
                   type="text"
                   class="form-control"
+                  name="nome"
                   placeholder="Nome"
                   required
                 />
@@ -105,17 +106,19 @@
                 <input
                   type="email"
                   class="form-control"
+                  name="email"
                   placeholder="E-mail"
                   required
                 />
               </div>
               <div class="col-12">
-                <input type="text" class="form-control" placeholder="Assunto" />
+                <input type="text" class="form-control" name="assunto" placeholder="Assunto" />
               </div>
               <div class="col-12">
                 <textarea
                   class="form-control"
                   rows="5"
+                  name="mensagem"
                   placeholder="Mensagem"
                   required
                 ></textarea>
@@ -124,6 +127,9 @@
                 <button type="submit" class="btn btn-success btn-lg">
                   Enviar
                 </button>
+              </div>
+              <div class="col-12">
+                <div id="form-feedback" class="small mt-2"></div>
               </div>
             </form>
           </div>
