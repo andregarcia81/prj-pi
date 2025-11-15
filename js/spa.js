@@ -143,10 +143,23 @@
         window.history.pushState({ url: url.href }, '', url.href);
       }
 
-      window.scrollTo({
-        top: 0,
-        behavior: 'instant' in window ? 'instant' : 'auto',
-      });
+      // Rolagem: se houver hash, tenta rolar até o elemento; caso contrário, topo
+      if (url.hash) {
+        const targetEl = document.querySelector(url.hash);
+        if (targetEl && typeof targetEl.scrollIntoView === 'function') {
+          targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } else {
+          window.scrollTo({
+            top: 0,
+            behavior: 'instant' in window ? 'instant' : 'auto',
+          });
+        }
+      } else {
+        window.scrollTo({
+          top: 0,
+          behavior: 'instant' in window ? 'instant' : 'auto',
+        });
+      }
       currentContent.classList.remove(FADE_OUT_CLASS);
       currentContent.classList.add(FADE_IN_CLASS);
       // Force reflow to ensure the fade-in applies
@@ -161,39 +174,10 @@
   }
 
   function reinitializeScripts() {
-    // Reinicializa o formulário de contato
-    const form = document.querySelector('form');
-    if (form) {
-      // Remove event listeners antigos
-      const newForm = form.cloneNode(true);
-      form.parentNode.replaceChild(newForm, form);
-
-      // Adiciona novo event listener
-      newForm.addEventListener('submit', (event) => {
-        event.preventDefault();
-        setTimeout(() => {
-          navigateTo('agradecimento.html', true);
-        }, 500);
-      });
+    // Chama a função global de reinicialização do script.js
+    if (typeof window.reinitScripts === 'function') {
+      window.reinitScripts();
     }
-
-    // Reinicializa animações ao rolar
-    const sections = document.querySelectorAll('section');
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('fade-in');
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    sections.forEach((section) => {
-      section.classList.add('fade-in-init');
-      observer.observe(section);
-    });
   }
 
   function onLinkClick(e) {
