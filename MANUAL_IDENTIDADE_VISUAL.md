@@ -867,37 +867,94 @@ O sistema de feedback visual utiliza mensagens tipo "toaster" para informar o st
 | **Sucesso**   | Verde sucesso     | `text-success` | "Mensagem enviada com sucesso!"                     |
 | **Erro**      | Vermelho          | `text-danger`  | "Erro ao enviar. Tente novamente."                  |
 
-**Implementação:**
+**Implementação JavaScript:**
 
 ```javascript
 // Estado: Validação (campos vazios)
 if (!nome?.value.trim() || !email?.value.trim() || !mensagem?.value.trim()) {
   feedbackEl.textContent = 'Por favor, preencha todos os campos obrigatórios.';
-  feedbackEl.className = 'small mt-2 text-danger';
+  feedbackEl.className = 'small mt-2 text-danger show';
   return;
 }
 
 // Estado: Enviando
 feedbackEl.textContent = 'Enviando...';
-feedbackEl.className = 'small mt-2 text-muted';
+feedbackEl.className = 'small mt-2 text-muted show';
 
 // Estado: Sucesso
 feedbackEl.textContent = 'Mensagem enviada com sucesso!';
-feedbackEl.className = 'small mt-2 text-success';
+feedbackEl.className = 'small mt-2 text-success show';
 
 // Estado: Erro
 feedbackEl.textContent = 'Erro ao enviar. Tente novamente.';
-feedbackEl.className = 'small mt-2 text-danger';
+feedbackEl.className = 'small mt-2 text-danger show';
+```
+
+**Implementação CSS:**
+
+```css
+/* Toaster de feedback do formulário */
+#form-feedback {
+  display: none;
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1rem;
+  animation: toasterSlideIn 0.3s ease-out;
+  transition: all 0.3s ease;
+}
+
+#form-feedback.show {
+  display: block;
+}
+
+/* Estados do toaster */
+#form-feedback.text-danger {
+  background-color: #fee;
+  color: #dc3545;
+  border: 1px solid #f5c6cb;
+}
+
+#form-feedback.text-success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+#form-feedback.text-muted {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  border: 1px solid #dee2e6;
+}
+
+@keyframes toasterSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 ```
 
 **Características do Toaster:**
 
-- ✅ **Posicionamento**: Abaixo do botão de envio
-- ✅ **Tamanho**: Classe `small` (0.9rem / 14.4px)
-- ✅ **Espaçamento**: `mt-2` (margin-top: 0.5rem)
-- ✅ **Estados**: 4 estados (Validação, Enviando, Sucesso, Erro)
+- ✅ **Posicionamento**: Abaixo do botão de envio, centralizado
+- ✅ **Tamanho**: Fonte 0.9rem com padding de 12px/16px
+- ✅ **Espaçamento**: Margin-top de 1rem
+- ✅ **Estados**: 4 estados com cores distintas (Validação, Enviando, Sucesso, Erro)
 - ✅ **Validação**: Verifica campos obrigatórios antes do envio (nome, email, mensagem)
-- ✅ **Cores**: Vermelho (validação/erro), Cinza (enviando), Verde (sucesso)
+- ✅ **Animação**: SlideIn de 0.3s com fade-in suave
+- ✅ **Visual**: Fundo colorido, bordas arredondadas (6px) e borda sutil
+- ✅ **Cores de Fundo**:
+  - Vermelho claro (#fee) para validação/erro
+  - Verde claro (#d4edda) para sucesso
+  - Cinza claro (#f8f9fa) para enviando
+- ✅ **Controle de Visibilidade**: Classe `show` controla display (block/none)
 - ✅ **Acessibilidade**: Mensagens claras em português com bom contraste
 - ✅ **Temporização**: Após sucesso, redireciona para `agradecimento.html` em 1.2s
 - ✅ **Integração SPA**: Funciona corretamente após navegação sem reload
