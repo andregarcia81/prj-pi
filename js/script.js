@@ -5,6 +5,21 @@ function initContactForm() {
   const form = document.querySelector('#contact-form');
   const feedbackEl = document.querySelector('#form-feedback');
 
+  // Função para mostrar toaster
+  function showToaster(message, type, autoHide = true) {
+    if (feedbackEl) {
+      feedbackEl.textContent = message;
+      feedbackEl.className = `${type} show`;
+
+      // Auto-hide após 5 segundos (exceto para "enviando")
+      if (autoHide && type !== 'text-muted') {
+        setTimeout(() => {
+          feedbackEl.classList.remove('show');
+        }, 5000);
+      }
+    }
+  }
+
   if (form && !form.dataset.initialized) {
     // Marca como inicializado para evitar duplicação
     form.dataset.initialized = 'true';
@@ -27,21 +42,17 @@ function initContactForm() {
         !mensagem?.value.trim()
       ) {
         console.log('VALIDAÇÃO FALHOU - Campos vazios detectados');
-        if (feedbackEl) {
-          feedbackEl.textContent =
-            'Por favor, preencha todos os campos obrigatórios.';
-          feedbackEl.className = 'text-danger show';
-        }
+        showToaster(
+          'Por favor, preencha todos os campos obrigatórios.',
+          'text-danger'
+        );
         return;
       }
 
       console.log('Validação passou - prosseguindo com envio');
 
-      // Limpa feedback anterior
-      if (feedbackEl) {
-        feedbackEl.textContent = 'Enviando...';
-        feedbackEl.className = 'text-muted show';
-      } // Coleta dados
+      // Mostra feedback de envio
+      showToaster('Enviando...', 'text-muted', false); // Coleta dados
       const formData = new FormData(form);
 
       // Debug: Log da action URL
@@ -61,11 +72,11 @@ function initContactForm() {
         console.log('Response status:', response.status);
 
         if (response.ok) {
-          if (feedbackEl) {
-            feedbackEl.textContent =
-              'Mensagem enviada com sucesso! Redirecionando...';
-            feedbackEl.className = 'text-success show';
-          }
+          showToaster(
+            'Mensagem enviada com sucesso! Redirecionando...',
+            'text-success',
+            false
+          );
           form.reset();
           setTimeout(() => {
             window.location.href = 'agradecimento.html';
@@ -86,18 +97,14 @@ function initContactForm() {
             errorMessage = `Erro ${response.status}: ${response.statusText}`;
           }
 
-          if (feedbackEl) {
-            feedbackEl.textContent = errorMessage;
-            feedbackEl.className = 'text-danger show';
-          }
+          showToaster(errorMessage, 'text-danger');
         }
       } catch (e) {
         console.error('Erro no envio:', e);
-        if (feedbackEl) {
-          feedbackEl.textContent =
-            'Erro de conexão. Verifique sua internet e tente novamente.';
-          feedbackEl.className = 'text-danger show';
-        }
+        showToaster(
+          'Erro de conexão. Verifique sua internet e tente novamente.',
+          'text-danger'
+        );
       }
     });
   }
