@@ -12,6 +12,24 @@ function initContactForm() {
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
 
+      // Validação: verifica se os campos obrigatórios estão preenchidos
+      const nome = form.querySelector('[name="nome"]');
+      const email = form.querySelector('[name="email"]');
+      const mensagem = form.querySelector('[name="mensagem"]');
+
+      if (
+        !nome?.value.trim() ||
+        !email?.value.trim() ||
+        !mensagem?.value.trim()
+      ) {
+        if (feedbackEl) {
+          feedbackEl.textContent =
+            'Por favor, preencha todos os campos obrigatórios.';
+          feedbackEl.className = 'small mt-2 text-danger';
+        }
+        return;
+      }
+
       // Limpa feedback anterior
       if (feedbackEl) {
         feedbackEl.textContent = 'Enviando...';
