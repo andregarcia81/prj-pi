@@ -216,54 +216,112 @@ textarea:focus {
 
 /* Toaster de feedback do formulário */
 #form-feedback {
-  padding: 12px 16px;
-  border-radius: 6px;
-  font-size: 0.9rem !important;
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  z-index: 9999;
+  padding: 18px 24px;
+  border-radius: 12px;
+  font-size: 0.95rem !important;
   font-weight: 500;
-  text-align: center;
-  margin-top: 1rem;
-  min-height: 20px;
+  text-align: left;
+  min-width: 320px;
+  max-width: 420px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.08);
   opacity: 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  transform: translateY(-10px);
+  transform: translateX(450px) scale(0.9);
+  transition: all 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#form-feedback::before {
+  content: '';
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  line-height: 1;
 }
 
 #form-feedback.show {
   opacity: 1;
-  max-height: 100px;
-  transform: translateY(0);
-  animation: toasterSlideIn 0.3s ease-out;
+  transform: translateX(0) scale(1);
+  pointer-events: auto;
 }
 
-/* Estados do toaster */
+/* Estados do toaster com ícones */
 #form-feedback.text-danger {
-  background-color: #fee;
-  color: #dc3545;
-  border: 1px solid #f5c6cb;
+  background: linear-gradient(
+    135deg,
+    rgba(254, 238, 238, 0.95),
+    rgba(254, 226, 226, 0.95)
+  ) !important;
+  color: #c92a2a !important;
+  border: 1.5px solid rgba(220, 53, 69, 0.3) !important;
+}
+
+#form-feedback.text-danger::before {
+  content: '⚠️';
 }
 
 #form-feedback.text-success {
-  background-color: #d4edda;
-  color: #155724;
-  border: 1px solid #c3e6cb;
+  background: linear-gradient(
+    135deg,
+    rgba(212, 237, 218, 0.95),
+    rgba(195, 230, 203, 0.95)
+  ) !important;
+  color: #2b8a3e !important;
+  border: 1.5px solid rgba(40, 167, 69, 0.3) !important;
+}
+
+#form-feedback.text-success::before {
+  content: '✅';
 }
 
 #form-feedback.text-muted {
-  background-color: #f8f9fa;
-  color: #6c757d;
-  border: 1px solid #dee2e6;
+  background: linear-gradient(
+    135deg,
+    rgba(248, 249, 250, 0.95),
+    rgba(233, 236, 239, 0.95)
+  ) !important;
+  color: #495057 !important;
+  border: 1.5px solid rgba(108, 117, 125, 0.2) !important;
+}
+
+#form-feedback.text-muted::before {
+  content: '⏳';
 }
 
 @keyframes toasterSlideIn {
-  from {
+  0% {
     opacity: 0;
-    transform: translateY(-10px);
+    transform: translateX(450px) scale(0.9);
   }
-  to {
+  60% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(-8px) scale(1.02);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+/* Responsividade do toaster */
+@media (max-width: 576px) {
+  #form-feedback {
+    top: 16px;
+    right: 16px;
+    left: 16px;
+    min-width: auto;
+    max-width: none;
+    transform: translateY(-120px) scale(0.9);
+  }
+
+  #form-feedback.show {
+    transform: translateY(0) scale(1);
   }
 }
 
