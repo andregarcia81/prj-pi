@@ -30,7 +30,7 @@ function initContactForm() {
         if (feedbackEl) {
           feedbackEl.textContent =
             'Por favor, preencha todos os campos obrigatórios.';
-          feedbackEl.className = 'small mt-2 text-danger';
+          feedbackEl.className = 'small mt-2 text-danger show';
         }
         return;
       }
@@ -40,10 +40,8 @@ function initContactForm() {
       // Limpa feedback anterior
       if (feedbackEl) {
         feedbackEl.textContent = 'Enviando...';
-        feedbackEl.className = 'small mt-2 text-muted';
-      }
-
-      // Coleta dados
+        feedbackEl.className = 'small mt-2 text-muted show';
+      } // Coleta dados
       const formData = new FormData(form);
 
       // Debug: Log da action URL
@@ -66,7 +64,7 @@ function initContactForm() {
           if (feedbackEl) {
             feedbackEl.textContent =
               'Mensagem enviada com sucesso! Redirecionando...';
-            feedbackEl.className = 'small mt-2 text-success';
+            feedbackEl.className = 'small mt-2 text-success show';
           }
           form.reset();
           setTimeout(() => {
@@ -90,7 +88,7 @@ function initContactForm() {
 
           if (feedbackEl) {
             feedbackEl.textContent = errorMessage;
-            feedbackEl.className = 'small mt-2 text-danger';
+            feedbackEl.className = 'small mt-2 text-danger show';
           }
         }
       } catch (e) {
@@ -98,7 +96,7 @@ function initContactForm() {
         if (feedbackEl) {
           feedbackEl.textContent =
             'Erro de conexão. Verifique sua internet e tente novamente.';
-          feedbackEl.className = 'small mt-2 text-danger';
+          feedbackEl.className = 'small mt-2 text-danger show';
         }
       }
     });
