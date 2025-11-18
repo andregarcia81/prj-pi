@@ -17,11 +17,16 @@ function initContactForm() {
       const email = form.querySelector('[name="email"]');
       const mensagem = form.querySelector('[name="mensagem"]');
 
+      console.log('Validação - Nome:', nome?.value);
+      console.log('Validação - Email:', email?.value);
+      console.log('Validação - Mensagem:', mensagem?.value);
+
       if (
         !nome?.value.trim() ||
         !email?.value.trim() ||
         !mensagem?.value.trim()
       ) {
+        console.log('VALIDAÇÃO FALHOU - Campos vazios detectados');
         if (feedbackEl) {
           feedbackEl.textContent =
             'Por favor, preencha todos os campos obrigatórios.';
@@ -29,6 +34,8 @@ function initContactForm() {
         }
         return;
       }
+
+      console.log('Validação passou - prosseguindo com envio');
 
       // Limpa feedback anterior
       if (feedbackEl) {
