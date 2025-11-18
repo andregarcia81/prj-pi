@@ -4,12 +4,15 @@ body {
   background-color: #f8f9fa;
   color: #333333;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 /* Sticky layout: footer at bottom */
 html,
 body {
   height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* Prevent layout shift when scrollbar appears/disappears */
@@ -205,6 +208,7 @@ textarea {
   border-radius: 6px;
   border: 1px solid #ccc;
   padding: 10px;
+  max-width: 100%;
 }
 
 input:focus,
@@ -212,6 +216,27 @@ textarea:focus {
   border-color: #007aff;
   outline: none;
   box-shadow: 0 0 5px rgba(0, 122, 255, 0.3);
+}
+
+/* Previne overflow horizontal em containers */
+.container,
+.container-fluid,
+.row {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Ajusta margens negativas do Bootstrap em mobile */
+@media (max-width: 576px) {
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .row > * {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 }
 
 /* Toaster de feedback do formulário */
