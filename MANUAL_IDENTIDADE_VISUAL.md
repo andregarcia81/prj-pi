@@ -860,15 +860,23 @@ O sistema de feedback visual utiliza mensagens tipo "toaster" para informar o st
 
 **Estados do Toaster:**
 
-| Estado       | Cor               | Classe CSS     | Mensagem                           |
-| ------------ | ----------------- | -------------- | ---------------------------------- |
-| **Enviando** | Cinza (`#555555`) | `text-muted`   | "Enviando..."                      |
-| **Sucesso**  | Verde sucesso     | `text-success` | "Mensagem enviada com sucesso!"    |
-| **Erro**     | Vermelho          | `text-danger`  | "Erro ao enviar. Tente novamente." |
+| Estado        | Cor               | Classe CSS     | Mensagem                                            |
+| ------------- | ----------------- | -------------- | --------------------------------------------------- |
+| **Validação** | Vermelho          | `text-danger`  | "Por favor, preencha todos os campos obrigatórios." |
+| **Enviando**  | Cinza (`#555555`) | `text-muted`   | "Enviando..."                                       |
+| **Sucesso**   | Verde sucesso     | `text-success` | "Mensagem enviada com sucesso!"                     |
+| **Erro**      | Vermelho          | `text-danger`  | "Erro ao enviar. Tente novamente."                  |
 
 **Implementação:**
 
 ```javascript
+// Estado: Validação (campos vazios)
+if (!nome?.value.trim() || !email?.value.trim() || !mensagem?.value.trim()) {
+  feedbackEl.textContent = 'Por favor, preencha todos os campos obrigatórios.';
+  feedbackEl.className = 'small mt-2 text-danger';
+  return;
+}
+
 // Estado: Enviando
 feedbackEl.textContent = 'Enviando...';
 feedbackEl.className = 'small mt-2 text-muted';
@@ -887,7 +895,10 @@ feedbackEl.className = 'small mt-2 text-danger';
 - ✅ **Posicionamento**: Abaixo do botão de envio
 - ✅ **Tamanho**: Classe `small` (0.9rem / 14.4px)
 - ✅ **Espaçamento**: `mt-2` (margin-top: 0.5rem)
-- ✅ **Acessibilidade**: Mensagens claras e cores com bom contraste
+- ✅ **Estados**: 4 estados (Validação, Enviando, Sucesso, Erro)
+- ✅ **Validação**: Verifica campos obrigatórios antes do envio (nome, email, mensagem)
+- ✅ **Cores**: Vermelho (validação/erro), Cinza (enviando), Verde (sucesso)
+- ✅ **Acessibilidade**: Mensagens claras em português com bom contraste
 - ✅ **Temporização**: Após sucesso, redireciona para `agradecimento.html` em 1.2s
 - ✅ **Integração SPA**: Funciona corretamente após navegação sem reload
 
