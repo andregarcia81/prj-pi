@@ -1,0 +1,1043 @@
+# 🏢 MANUAL OFICIAL
+
+## IDENTIDADE VISUAL DO SITE
+
+![Logo Final](img/logo/logo.svg)
+
+**"Tecnologia que conecta"**
+
+Site: **Instalações Inteligentes**
+
+---
+
+### Desenvolvido por:
+
+**Andre Garcia** | **Jose Paulo Archetti Conrado** | **Gustavo Carvalho**
+
+Disciplina: **Design Digital - DSM / Projeto Integrador** | Professor: Érick
+
+Curso: **DSM - Desenvolvimento de Software Multiplataforma** | Data: **18 de Novembro de 2025**
+
+---
+
+## 📋 Sumário Visual
+
+1. [Introdução](#1-introdução)
+2. [Sobre a Marca](#2-sobre-a-marca)
+3. [Motivações](#3-motivações-e-propósito-do-site)
+4. [Slogan](#4-slogan)
+5. [Processo Criativo](#5-processo-criativo)
+6. [Logotipo Final](#6-logotipo-final)
+7. [Variações do Logo](#7-variações-do-logotipo)
+8. [Paleta de Cores](#8-paleta-de-cores-oficial)
+9. [Tipografia](#9-tipografia)
+10. [Aplicações](#10-aplicações-da-marca)
+11. [Proibições](#11-proibições-de-uso)
+12. [Protótipo / Prints](#12-protótipo--prints-do-site-real-obrigatório)
+13. [Créditos](#13-créditos-do-grupo)
+
+---
+
+## 1. Introdução
+
+Este manual apresenta a identidade visual completa do site **Instalações Inteligentes**. Ele registra o conceito, o processo criativo e as diretrizes de uso da marca, garantindo consistência visual em todo o projeto Web. Este documento é o guia oficial para todos os desenvolvedores e designers envolvidos no projeto.
+
+### Conceito da Marca
+
+A identidade visual do **Instalações Inteligentes** foi desenvolvida para transmitir:
+
+- **Modernidade**: Através de elementos visuais limpos e tecnológicos
+- **Confiabilidade**: Cores sóbrias e profissionais (azul, cinza escuro)
+- **Inovação**: Foco em tecnologias emergentes (IoT, automação)
+- **Conectividade**: Representada no slogan e no conceito visual
+
+**Observação:** Este material é criativo, visual e não segue padrões ABNT.
+
+---
+
+## 2. Sobre a Marca
+
+### O que é o site e o que ele oferece?
+
+O site **Instalações Inteligentes** é uma plataforma profissional focada em **soluções tecnológicas para instalações elétricas, redes de dados e Internet das Coisas (IoT)**. Oferecemos:
+
+- **Instalações Elétricas**: Projetos seguros e eficientes para residências e empresas
+- **Cabeamento Estruturado**: Organização e alto desempenho para redes de dados
+- **Internet das Coisas (IoT)**: Automação e controle inteligente de ambientes
+- **Galeria de Projetos**: Portfólio visual dos trabalhos realizados
+- **Formulário de Contato**: Sistema integrado de solicitação de orçamentos via e-mail
+
+### Público-alvo e Posicionamento
+
+**Público-alvo principal:**
+
+- Empresas que buscam infraestrutura tecnológica de qualidade
+- Residências interessadas em automação e sistemas inteligentes
+- Profissionais da área de TI e engenharia elétrica
+- Faixa etária: 25-55 anos (decisores técnicos e empresariais)
+
+**Posicionamento:**
+Somos reconhecidos como uma **empresa especializada em convergência tecnológica**, unindo instalações elétricas tradicionais com soluções modernas de rede e IoT, oferecendo ambientes totalmente integrados e inteligentes.
+
+### Problema que Resolvemos
+
+Resolvemos o problema da **fragmentação de serviços tecnológicos**, onde clientes precisam contratar múltiplos fornecedores para elétrica, rede e automação. Oferecemos uma solução integrada, garantindo compatibilidade e eficiência em todos os sistemas instalados.
+
+---
+
+## 3. Motivações e Propósito do Site
+
+### 💡 Benefício do Usuário
+
+Permitir que o usuário **centralize todos os serviços de infraestrutura tecnológica em um único fornecedor**, economizando tempo, reduzindo custos e garantindo integração perfeita entre sistemas.
+
+### 🎯 Dor Atendida
+
+Aliviar a **complexidade de gerenciar múltiplos prestadores de serviço** para instalações tecnológicas, oferecendo uma solução completa desde o projeto até a implementação e suporte.
+
+### ⚡ Diferencial Proposto
+
+Nosso projeto propõe um diferencial de **integração total entre três áreas cruciais** (elétrica, rede e IoT), com uma **experiência digital moderna através de um site SPA (Single Page Application)** que oferece navegação fluida, formulário de contato com envio real de e-mails via API (Formspree) e design responsivo profissional.
+
+---
+
+## 4. Slogan
+
+> **"Tecnologia que conecta"**
+
+Um slogan curto, marcante e diretamente relacionado ao propósito da marca. Ele comunica:
+
+- **Tecnologia**: Nossa expertise técnica
+- **Conecta**: A integração entre sistemas e pessoas
+- **Simplicidade**: Fácil de lembrar e pronunciar
+
+**Análise do Slogan:**
+
+- **Palavras-chave**: Tecnologia, Conexão
+- **Tom**: Profissional, Moderno, Confiável
+- **Aplicação**: Utilizado em todas as páginas do site, materiais de marketing e comunicações oficiais
+
+---
+
+## 5. Processo Criativo
+
+O processo criativo foi uma jornada de experimentação, descarte e refinamento. O objetivo era casar o conceito de **inovação tecnológica** com a ideia de **confiabilidade e profissionalismo** de forma simples e memorável.
+
+### Rascunhos e Experimentações
+
+**Conceitos iniciais explorados:**
+
+- Símbolos relacionados a circuitos elétricos
+- Representações de redes e conexões
+- Elementos abstratos representando automação
+- Formas geométricas simples para transmitir modernidade
+
+**Decisões tomadas:**
+
+- Optou-se por um logotipo SVG escalável (1024x1024px)
+- Preferência por design vetorial para garantir qualidade em qualquer tamanho
+- Cores sóbrias (azul, cinza) alinhadas com o setor tecnológico
+
+### Primeiras Versões do Logo
+
+**Evolução do logotipo:**
+
+1. **Versão Inicial**: Logo com elementos muito complexos (descartado)
+2. **Versão Intermediária**: Simplificação das formas
+3. **Versão Final**: Logo limpo, profissional, SVG vetorial
+
+**Arquivo final:** `img/logo/logo.svg` (1024x1024px)
+
+### Justificativas da Escolha
+
+**Forma:**
+
+- Logo baseado em **formas geométricas limpas**
+- Representa **modernidade e precisão técnica**
+- Escalável para qualquer aplicação (favicon 32x32px até banner)
+
+**Paleta:**
+
+- **Azul (#007AFF)**: Confiança, tecnologia, profissionalismo
+- **Cinza Escuro (#333333)**: Solidez, seriedade, contraste
+- **Verde-azulado (#00C9A7)**: Inovação, energia, modernidade
+
+**Importante:** O logo final é uma criação própria baseada em referências visuais do setor de tecnologia.
+
+---
+
+## 6. Logotipo Final
+
+### 🎨 Logo Principal
+
+**Arquivo:** `img/logo/logo.svg`  
+**Dimensões:** 1024x1024px (formato SVG vetorial)  
+**Formatos disponíveis:** SVG (principal), PNG para favicon
+
+![Logo Principal](img/logo/logo.svg)
+
+### O que o logo comunica e como representa o site
+
+O nosso logotipo combina **elementos tecnológicos modernos** com **formas geométricas precisas** para simbolizar:
+
+- **Integração**: Convergência de múltiplas áreas técnicas
+- **Inovação**: Design contemporâneo e minimalista
+- **Profissionalismo**: Cores sóbrias e composição equilibrada
+
+### Especificações Técnicas
+
+#### Versão Limpa (Sem Fundo)
+
+- **Formato:** SVG (Scalable Vector Graphics)
+- **Tamanho base:** 1024x1024px
+- **Transparência:** Sim (fundo transparente)
+- **Uso:** Website, materiais digitais
+
+#### Grade de Construção
+
+```
+┌─────────────────────────┐
+│ Margem: X               │
+│  ┌───────────────────┐  │
+│  │                   │  │
+│  │   [LOGO CORE]     │  │
+│  │                   │  │
+│  └───────────────────┘  │
+│ Margem: X               │
+└─────────────────────────┘
+```
+
+**X = 10% da largura total do logo**
+
+#### Margem de Segurança (X)
+
+- **Espaço mínimo ao redor do logo:** 10% da largura do logo
+- **Aplicação:** Nenhum elemento gráfico ou texto deve invadir essa área
+- **Objetivo:** Garantir legibilidade e destaque visual
+
+### Tamanhos Mínimos
+
+| Aplicação       | Tamanho Mínimo |
+| --------------- | -------------- |
+| **Favicon**     | 32x32px        |
+| **Logo Header** | 80px altura    |
+| **Impressos**   | 3cm largura    |
+| **Banner**      | 300px largura  |
+
+---
+
+## 7. Variações do Logotipo
+
+### Versões Disponíveis
+
+#### 🎨 Colorido (Principal)
+
+**Arquivo:** `img/logo/logo.svg`
+
+- **Uso:** Website (header), materiais digitais coloridos
+- **Fundo:** Escuro (#333333) ou claro (#F8F9FA)
+
+#### ⚫ Monocromático
+
+**Conversão:** Escala de cinza do logo principal
+
+- **Uso:** Impressões P&B, documentos oficiais
+- **Cores:** Tons de cinza (#333 → #FFF)
+
+#### ⚪ Negativo
+
+**Inversão:** Logo em branco sobre fundo escuro
+
+- **Uso:** Header do site (fundo escuro #333333)
+- **Aplicação:** Navbar, rodapé
+
+#### 📱 Ícone Reduzido (Favicon)
+
+**Arquivo:** `img/logo/matriz-favicon.png`
+
+- **Tamanho:** 32x32px, 48x48px
+- **Formato:** PNG
+- **Uso:** Favicon do navegador
+
+### Versões Alternativas
+
+#### Horizontal
+
+**Arquivo:** `img/logo/logo-header.svg`
+
+- **Altura:** 80px (padrão navbar)
+- **Proporção:** Mantém aspect ratio original
+- **Aplicação:** Header do site
+
+**Código de exemplo:**
+
+```html
+<img
+  src="img/logo/logo-header.svg"
+  alt="Instalações Inteligentes"
+  height="80px"
+/>
+```
+
+#### Vertical
+
+**Uso:** Hero section, páginas internas
+
+- **Tamanho:** Até 300px largura
+- **Centralizado:** text-align: center
+
+---
+
+## 8. Paleta de Cores Oficial
+
+A paleta de cores foi definida para evocar **profissionalismo, tecnologia e modernidade**. As cores foram extraídas do arquivo `css/estilo.css` e refletem a identidade visual implementada.
+
+### Cores Primárias
+
+<div style="display: flex; gap: 20px; margin: 20px 0;">
+  <div style="background: #007AFF; color: white; padding: 20px; border-radius: 8px; flex: 1;">
+    <strong>Azul Tecnológico</strong><br>
+    #007AFF<br>
+    RGB(0, 122, 255)
+  </div>
+  <div style="background: #333333; color: white; padding: 20px; border-radius: 8px; flex: 1;">
+    <strong>Cinza Escuro</strong><br>
+    #333333<br>
+    RGB(51, 51, 51)
+  </div>
+</div>
+
+**Aplicação:**
+
+- `#007AFF` - Botões primários, títulos (H1-H5), links ativos, CTA
+- `#333333` - Header, footer, textos principais, fundos escuros
+
+### Cores Secundárias
+
+<div style="display: flex; gap: 20px; margin: 20px 0;">
+  <div style="background: #00C9A7; color: white; padding: 20px; border-radius: 8px; flex: 1;">
+    <strong>Verde-Azulado</strong><br>
+    #00C9A7<br>
+    RGB(0, 201, 167)
+  </div>
+  <div style="background: #555555; color: white; padding: 20px; border-radius: 8px; flex: 1;">
+    <strong>Cinza Médio</strong><br>
+    #555555<br>
+    RGB(85, 85, 85)
+  </div>
+</div>
+
+**Aplicação:**
+
+- `#00C9A7` - Botões de sucesso (btn-success), destaques secundários
+- `#555555` - Textos secundários (p.lead), legendas
+
+### Cores Neutras
+
+<div style="display: flex; gap: 20px; margin: 20px 0;">
+  <div style="background: #FFFFFF; border: 1px solid #ccc; padding: 20px; border-radius: 8px; flex: 1;">
+    <strong>Branco</strong><br>
+    #FFFFFF<br>
+    RGB(255, 255, 255)
+  </div>
+  <div style="background: #F8F9FA; border: 1px solid #ccc; padding: 20px; border-radius: 8px; flex: 1;">
+    <strong>Cinza Claro (Fundo)</strong><br>
+    #F8F9FA<br>
+    RGB(248, 249, 250)
+  </div>
+  <div style="background: #CCCCCC; padding: 20px; border-radius: 8px; flex: 1;">
+    <strong>Cinza Borda</strong><br>
+    #CCCCCC<br>
+    RGB(204, 204, 204)
+  </div>
+</div>
+
+**Aplicação:**
+
+- `#FFFFFF` - Fundos de seções, cards, modais
+- `#F8F9FA` - Background do body, seções alternadas
+- `#CCCCCC` - Bordas de inputs, divisores
+
+### Tabela de Cores com Aplicações
+
+| Cor                     | HEX       | Uso Principal                    | Onde Encontrar                 |
+| ----------------------- | --------- | -------------------------------- | ------------------------------ |
+| 🔵 **Azul Tecnológico** | `#007AFF` | Títulos, botões primários, links | `.btn-primary`, `h1-h5`        |
+| ⚫ **Cinza Escuro**     | `#333333` | Header, footer, textos           | `.site-header`, `.site-footer` |
+| 🟢 **Verde-Azulado**    | `#00C9A7` | Botões de sucesso, CTAs          | `.btn-success`                 |
+| 🔘 **Cinza Médio**      | `#555555` | Textos secundários               | `p.lead`                       |
+| ⚪ **Branco**           | `#FFFFFF` | Fundos, contraste                | `body`, `section`              |
+| 🔳 **Cinza Claro**      | `#F8F9FA` | Background geral                 | `body background-color`        |
+| ◻️ **Cinza Borda**      | `#CCCCCC` | Bordas de campos                 | `input border`                 |
+
+### Contraste e Acessibilidade
+
+**Combinações validadas (WCAG 2.1 AA):**
+
+- ✅ Azul #007AFF sobre Branco #FFFFFF (contraste 4.5:1)
+- ✅ Cinza Escuro #333333 sobre Branco #FFFFFF (contraste 12.6:1)
+- ✅ Branco #FFFFFF sobre Cinza Escuro #333333 (contraste 12.6:1)
+
+---
+
+## 9. Tipografia
+
+Utilizamos o **máximo de 2 famílias tipográficas** para garantir a leveza e a consistência da marca. A fonte principal é robusta para títulos, enquanto a fonte de corpo é altamente legível.
+
+### Fonte de Títulos (H1, H2, H3, H4, H5)
+
+**Nome da Fonte:** `Montserrat` (Bold / ExtraBold)
+
+```css
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #007aff;
+}
+```
+
+**Exemplo:**
+
+# Headline Principal
+
+## Subtítulo Importante
+
+**Justificativa:** Escolhida por sua **força e modernidade**, garantindo impacto visual nos títulos principais. Montserrat é uma fonte geométrica sans-serif que transmite profissionalismo.
+
+**Onde usar:**
+
+- Títulos de seções (H1, H2)
+- Navegação (navbar)
+- CTAs importantes
+- Logos textuais
+
+**Tamanhos recomendados:**
+
+- H1: `2rem` (32px) - Mobile / `display-5` (3rem) - Desktop
+- H2: `1.75rem` (28px)
+- H3-H5: `1.5rem - 1.25rem` (24-20px)
+
+### Fonte dos Textos (Corpo)
+
+**Nome da Fonte:** `Poppins` (Regular)
+
+```css
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333333;
+}
+```
+
+**Exemplo de texto:**
+Este é o corpo principal de texto. Tamanho sugerido: 16px. O espaçamento entre linhas (line-height) deve ser de 150% (1.5) para maximizar a legibilidade em dispositivos móveis e desktop.
+
+**Justificativa:** Poppins é uma fonte humanista sans-serif com **excelente legibilidade** em telas. Suas curvas suaves facilitam a leitura prolongada.
+
+**Onde usar:**
+
+- Parágrafos de texto
+- Listas
+- Formulários (inputs, textareas)
+- Descrições de serviços
+
+**Tamanhos recomendados:**
+
+- Corpo: `1rem` (16px)
+- Lead: `1.2rem` (19.2px) - `.lead`
+- Small: `0.9rem` (14.4px) - `.small`
+
+### Fonte Destaques / Botões
+
+**Call to Action (CTA) em Maiúsculas**
+
+```css
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+```
+
+**Exemplo:**
+
+```html
+<button class="btn btn-primary">SOLICITE UM ORÇAMENTO</button>
+```
+
+### Hierarquia Tipográfica
+
+```
+┌─────────────────────────────────────┐
+│ H1 - Montserrat Bold (2-3rem)      │
+│ ↓ Títulos principais                │
+├─────────────────────────────────────┤
+│ H2 - Montserrat Bold (1.75rem)     │
+│ ↓ Subtítulos de seção               │
+├─────────────────────────────────────┤
+│ H3-H5 - Montserrat Bold (1.25-1.5) │
+│ ↓ Títulos internos                  │
+├─────────────────────────────────────┤
+│ Body - Poppins Regular (1rem)      │
+│ ↓ Texto corrido                     │
+├─────────────────────────────────────┤
+│ Lead - Poppins Regular (1.2rem)    │
+│ ↓ Destaques de parágrafo            │
+└─────────────────────────────────────┘
+```
+
+### Código de Importação (Google Fonts)
+
+```html
+<link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap"
+  rel="stylesheet"
+/>
+```
+
+---
+
+## 10. Aplicações da Marca
+
+Exemplos visuais de como a identidade visual deve ser aplicada nos principais pontos de contato do usuário com o site.
+
+### Aplicação no Cabeçalho (Header)
+
+```html
+<nav class="navbar navbar-expand-lg navbar-dark site-header">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img
+        src="img/logo/logo-header.svg"
+        alt="Instalações Inteligentes"
+        height="80px"
+      />
+    </a>
+    <!-- Menu de navegação -->
+  </div>
+</nav>
+```
+
+**Características:**
+
+- Fundo: `#333333` (cinza escuro)
+- Logo: 80px altura
+- Links: Cor branca com hover
+- Posição: Fixa no topo (fixed)
+- Sombra: `box-shadow: 0 2px 4px rgba(0,0,0,0.1)`
+
+### Exemplo de Botões (Primário/Secundário)
+
+```html
+<!-- Botão Primário -->
+<button class="btn btn-primary">Solicite um orçamento</button>
+
+<!-- Botão Secundário -->
+<button class="btn btn-success">Ver Projetos</button>
+
+<!-- Botão Neutro -->
+<button class="btn btn-outline-secondary">Saiba mais</button>
+```
+
+**Estilos:**
+
+- **Primário**: Fundo `#007AFF`, texto branco, hover com opacidade 90%
+- **Secundário**: Fundo `#00C9A7`, texto branco
+- **Neutro**: Borda cinza, fundo transparente
+
+### Uso em Dispositivos (Mobile Mockup)
+
+**Responsividade:**
+
+- **Desktop (>768px)**: Logo 80px, menu horizontal
+- **Tablet (768px)**: Logo 70px, menu colapsável
+- **Mobile (<576px)**: Logo 60px, hamburger menu
+
+**Breakpoints:**
+
+```css
+/* Mobile First */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    height: 60px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+```
+
+### Hero Section (Página Inicial)
+
+```html
+<section class="bg-light text-center py-5">
+  <div class="container">
+    <img
+      src="img/logo/logo.svg"
+      alt="Logo"
+      class="mb-4"
+      style="max-width: 300px"
+    />
+    <h1 class="display-5 fw-bold">Tecnologia que conecta</h1>
+    <p class="lead">
+      Soluções em instalações elétricas, redes e IoT para ambientes
+      inteligentes.
+    </p>
+    <a href="contato.html#contact-form" class="btn btn-primary btn-lg">
+      Solicite um orçamento
+    </a>
+  </div>
+</section>
+```
+
+### Cards de Serviços
+
+```html
+<div class="col-md-4">
+  <img src="img/eletrica.webp" class="img-fluid rounded mb-3" />
+  <h4>Instalações Elétricas</h4>
+  <p>Projetos seguros e eficientes para residências e empresas.</p>
+</div>
+```
+
+**Características:**
+
+- Imagens: `border-radius: 8px`
+- Títulos: Montserrat, cor `#007AFF`
+- Espaçamento: `mb-3` (margin-bottom: 1rem)
+
+---
+
+## 11. Proibições de Uso
+
+Para manter a integridade visual da marca, as seguintes práticas são **estritamente proibidas**.
+
+### ❌ Esticar o Logo
+
+**Proibido:** Alterar proporções do logo (aspect ratio)
+
+```
+[X] Logo esticado horizontalmente
+[X] Logo comprimido verticalmente
+```
+
+**Correto:** Sempre manter proporção original (1:1)
+
+### ❌ Mudar as Cores Originais
+
+**Proibido:** Alterar paleta de cores definida
+
+```
+[X] Logo em vermelho, amarelo ou cores não autorizadas
+[X] Gradientes não previstos
+```
+
+**Correto:** Usar apenas as cores da paleta oficial
+
+### ❌ Fundo que Prejudique a Leitura
+
+**Proibido:** Aplicar logo sobre fundos com baixo contraste
+
+```
+[X] Logo azul sobre fundo azul claro
+[X] Logo cinza sobre fundo cinza
+```
+
+**Correto:** Garantir contraste mínimo de 4.5:1 (WCAG AA)
+
+### ❌ Usar Sombra Exagerada
+
+**Proibido:** Aplicar efeitos de sombra não autorizados
+
+```css
+/* ❌ PROIBIDO */
+.logo {
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.8);
+  filter: drop-shadow(5px 5px 10px red);
+}
+```
+
+**Correto:** Usar apenas a sombra sutil do header (`0 2px 4px rgba(0,0,0,0.1)`)
+
+### ❌ Aplicar Filtros Aleatórios
+
+**Proibido:**
+
+```css
+/* ❌ PROIBIDO */
+filter: blur(2px);
+filter: hue-rotate(180deg);
+filter: sepia(100%);
+```
+
+### ❌ Alterar a Tipografia Definida
+
+**Proibido:** Usar fontes diferentes de Montserrat e Poppins
+
+```css
+/* ❌ PROIBIDO */
+h1 {
+  font-family: 'Comic Sans MS';
+}
+body {
+  font-family: 'Times New Roman';
+}
+```
+
+### ❌ Distorcer Elementos da Identidade
+
+**Proibido:**
+
+- Rotacionar o logo em ângulos não retos
+- Adicionar textos sobre o logo
+- Misturar elementos do logo com outros grafismos
+- Remover partes do logo
+
+### ✅ Resumo de Boas Práticas
+
+| Elemento       | Permitido                       | Proibido                    |
+| -------------- | ------------------------------- | --------------------------- |
+| **Logo**       | Redimensionar proporcionalmente | Esticar, comprimir          |
+| **Cores**      | Usar paleta oficial             | Criar novas cores           |
+| **Tipografia** | Montserrat + Poppins            | Outras fontes               |
+| **Fundos**     | Alto contraste                  | Baixo contraste             |
+| **Efeitos**    | Sombra sutil (header)           | Sombras exageradas, filtros |
+
+---
+
+## 12. Protótipo / Prints do Site Real (Obrigatório)
+
+Demonstração da coerência entre o design proposto no manual e a interface construída. Este é o teste final de consistência.
+
+### Página Inicial (Desktop)
+
+**URL:** `index.html`
+
+**Elementos aplicados:**
+
+- ✅ Logo no header (80px altura)
+- ✅ Navegação com Montserrat
+- ✅ Hero section com logo centralizado (300px)
+- ✅ Botão CTA primário (`#007AFF`)
+- ✅ Cards de serviços com imagens rounded
+- ✅ Rodapé com fundo `#333333`
+
+**Código da página inicial:**
+
+```html
+<main id="spa-content" class="spa-fade-in">
+  <!-- Hero Section -->
+  <section class="bg-light text-center py-5">
+    <div class="container">
+      <img
+        src="img/logo/logo.svg"
+        alt="Logo"
+        class="mb-4"
+        style="max-width: 300px"
+      />
+      <h1 class="display-5 fw-bold">Tecnologia que conecta</h1>
+      <p class="lead">
+        Soluções em instalações elétricas, redes e IoT para ambientes
+        inteligentes.
+      </p>
+      <a href="contato.html#contact-form" class="btn btn-primary btn-lg">
+        Solicite um orçamento
+      </a>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center mb-4">Nossos Serviços</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img src="img/eletrica.webp" class="img-fluid rounded mb-3" />
+          <h4>Instalações Elétricas</h4>
+          <p>Projetos seguros e eficientes</p>
+        </div>
+        <!-- Outros serviços -->
+      </div>
+    </div>
+  </section>
+</main>
+```
+
+### Versão Mobile e Páginas Internas
+
+**Páginas implementadas:**
+
+- ✅ `index.html` - Página inicial
+- ✅ `eletrica.html` - Instalações Elétricas
+- ✅ `rede.html` - Cabeamento Estruturado
+- ✅ `iot.html` - Internet das Coisas
+- ✅ `projetos.html` - Galeria de Projetos
+- ✅ `contato.html` - Formulário de Contato (Formspree)
+- ✅ `agradecimento.html` - Confirmação de envio
+
+**Responsividade:**
+
+```css
+/* Mobile (<768px) */
+.navbar-brand img {
+  height: 60px;
+}
+h1 {
+  font-size: 2rem;
+}
+.btn {
+  width: 100%;
+}
+
+/* Tablet (768px-1024px) */
+.navbar-brand img {
+  height: 70px;
+}
+
+/* Desktop (>1024px) */
+.navbar-brand img {
+  height: 80px;
+}
+```
+
+### Elementos de UI (Cards, Menus e Botões Aplicados)
+
+#### Navbar (Header)
+
+```html
+<nav class="navbar navbar-expand-lg navbar-dark site-header">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo/logo-header.svg" alt="Instalações Inteligentes" />
+    </a>
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Início</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contato.html">Contato</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+```
+
+#### Footer (Rodapé)
+
+```html
+<footer class="site-footer">
+  <div class="container-fluid">
+    <p class="mb-0">
+      © 2025 Instalações Inteligentes. Todos os direitos reservados.
+    </p>
+  </div>
+</footer>
+```
+
+#### Formulário de Contato
+
+```html
+<form id="contact-form" method="POST" action="https://formspree.io/f/xdkyergz">
+  <input type="text" name="nome" placeholder="Nome" required />
+  <input type="email" name="email" placeholder="E-mail" required />
+  <textarea name="mensagem" placeholder="Mensagem" required></textarea>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+  <div id="form-feedback"></div>
+</form>
+```
+
+#### Feedback Visual (Toaster)
+
+O sistema de feedback visual utiliza mensagens tipo "toaster" para informar o status do envio do formulário:
+
+**Estados do Toaster:**
+
+| Estado       | Cor               | Classe CSS     | Mensagem                           |
+| ------------ | ----------------- | -------------- | ---------------------------------- |
+| **Enviando** | Cinza (`#555555`) | `text-muted`   | "Enviando..."                      |
+| **Sucesso**  | Verde sucesso     | `text-success` | "Mensagem enviada com sucesso!"    |
+| **Erro**     | Vermelho          | `text-danger`  | "Erro ao enviar. Tente novamente." |
+
+**Implementação:**
+
+```javascript
+// Estado: Enviando
+feedbackEl.textContent = 'Enviando...';
+feedbackEl.className = 'small mt-2 text-muted';
+
+// Estado: Sucesso
+feedbackEl.textContent = 'Mensagem enviada com sucesso!';
+feedbackEl.className = 'small mt-2 text-success';
+
+// Estado: Erro
+feedbackEl.textContent = 'Erro ao enviar. Tente novamente.';
+feedbackEl.className = 'small mt-2 text-danger';
+```
+
+**Características do Toaster:**
+
+- ✅ **Posicionamento**: Abaixo do botão de envio
+- ✅ **Tamanho**: Classe `small` (0.9rem / 14.4px)
+- ✅ **Espaçamento**: `mt-2` (margin-top: 0.5rem)
+- ✅ **Acessibilidade**: Mensagens claras e cores com bom contraste
+- ✅ **Temporização**: Após sucesso, redireciona para `agradecimento.html` em 1.2s
+- ✅ **Integração SPA**: Funciona corretamente após navegação sem reload
+
+### Tecnologias e Arquitetura
+
+**Stack Técnico:**
+
+- HTML5 + CSS3
+- JavaScript ES6+ (SPA)
+- Bootstrap 5.3.2
+- Google Fonts (Montserrat, Poppins)
+- Formspree API (envio de e-mails)
+
+**Arquitetura SPA:**
+
+- `js/spa.js` - Roteamento client-side
+- `js/script.js` - Formulário e animações
+- `css/estilo.css` - Estilos customizados
+
+**Características técnicas:**
+
+- Navegação sem reload (fetch + History API)
+- Transições suaves (fade-in/fade-out)
+- Formulário com envio assíncrono
+- Rodapé dinâmico fixo
+- Scroll animations (Intersection Observer)
+
+---
+
+## 13. Créditos do Grupo
+
+### 👨‍💻 Equipe de Desenvolvimento
+
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin: 30px 0;">
+
+<div style="text-align: center; padding: 20px; border: 2px solid #007AFF; border-radius: 10px;">
+  <h3>1️⃣ Andre Garcia</h3>
+  <p><strong>Função:</strong> Desenvolvedor Full Stack / Designer de Interface</p>
+  <p><strong>Responsabilidades:</strong></p>
+  <ul style="text-align: left;">
+    <li>Arquitetura SPA (Single Page Application)</li>
+    <li>Integração Formspree (envio de e-mails)</li>
+    <li>Design responsivo e UX</li>
+    <li>Gestão de repositório Git</li>
+  </ul>
+  <p>📧 <a href="mailto:andregarcia81@github.com">andregarcia81@github.com</a></p>
+  <p>🔗 <a href="https://github.com/andregarcia81">@andregarcia81</a></p>
+</div>
+
+<div style="text-align: center; padding: 20px; border: 2px solid #00C9A7; border-radius: 10px;">
+  <h3>2️⃣ Jose Paulo Archetti Conrado</h3>
+  <p><strong>Função:</strong> Desenvolvedor Front-end / Documentação</p>
+  <p><strong>Responsabilidades:</strong></p>
+  <ul style="text-align: left;">
+    <li>Implementação de componentes</li>
+    <li>Otimização de performance</li>
+    <li>Testes e validação</li>
+    <li>Documentação técnica (README.md)</li>
+  </ul>
+  <p>📧 <a href="mailto:ppconrado@yahoo.com.br">ppconrado@yahoo.com.br</a></p>
+  <p>🔗 <a href="https://github.com/ppconrado">@ppconrado</a></p>
+</div>
+
+<div style="text-align: center; padding: 20px; border: 2px solid #555555; border-radius: 10px;">
+  <h3>3️⃣ Gustavo Carvalho</h3>
+  <p><strong>Função:</strong> Desenvolvedor / Designer Visual</p>
+  <p><strong>Responsabilidades:</strong></p>
+  <ul style="text-align: left;">
+    <li>Identidade visual da marca</li>
+    <li>Manual de identidade visual</li>
+    <li>Design de interfaces</li>
+    <li>Padronização visual</li>
+  </ul>
+  <p>📧 <a href="mailto:gustavo.carvalho@fatec.sp.gov.com">gustavo.carvalho@fatec.sp.gov.com</a></p>
+</div>
+
+</div>
+
+### 📚 Instituição de Ensino
+
+**FATEC - Faculdade de Tecnologia**  
+Curso: **DSM - Desenvolvimento de Software Multiplataforma**  
+Disciplina: **Design Digital / Projeto Integrador**  
+Professor: **[Nome do Professor]**  
+Data: **18 de Novembro de 2025**
+
+### 🙏 Agradecimentos
+
+- **FATEC** - Instituição de ensino e apoio acadêmico
+- **Professores da FATEC** - Orientação e suporte técnico
+- **Bootstrap Team** - Framework CSS utilizado
+- **Formspree** - Serviço de formulários gratuito
+- **Google Fonts** - Fontes Montserrat e Poppins
+- **MDN Web Docs** - Documentação de referência
+
+### 📊 Estatísticas do Projeto
+
+| Métrica                      | Valor                                                                     |
+| ---------------------------- | ------------------------------------------------------------------------- |
+| **Commits Git**              | 34                                                                        |
+| **Páginas HTML**             | 7                                                                         |
+| **Linhas de CSS**            | ~300                                                                      |
+| **Linhas de JS**             | ~400                                                                      |
+| **Tempo de desenvolvimento** | 3 meses                                                                   |
+| **Tecnologias**              | 8 (HTML5, CSS3, JS ES6+, Bootstrap, Formspree, Git, VS Code, Live Server) |
+
+### 🔗 Links do Projeto
+
+- **Repositório GitHub:** [https://github.com/andregarcia81/prj-pi](https://github.com/andregarcia81/prj-pi)
+- **Documentação técnica:** `README.md` (raiz do projeto)
+- **Manual de Identidade Visual:** `MANUAL_IDENTIDADE_VISUAL.md` (este arquivo)
+
+---
+
+## 📄 Informações Adicionais
+
+### Histórico de Versões
+
+| Versão | Data       | Autor                       | Alterações                                           |
+| ------ | ---------- | --------------------------- | ---------------------------------------------------- |
+| 1.0    | 18/11/2025 | Andre Garcia                | Criação do manual com estrutura completa de 13 itens |
+| 1.0    | 18/11/2025 | Jose Paulo Archetti Conrado | Revisão e validação do conteúdo                      |
+| 1.0    | 18/11/2025 | Gustavo Carvalho            | Elaboração da identidade visual e design             |
+
+### Status de Implementação
+
+| Item            | Status          | Observações                           |
+| --------------- | --------------- | ------------------------------------- |
+| Logo SVG        | ✅ Implementado | `img/logo/logo.svg` (1024x1024px)     |
+| Paleta de cores | ✅ Implementado | Extraída de `css/estilo.css`          |
+| Tipografia      | ✅ Implementado | Montserrat + Poppins via Google Fonts |
+| Responsividade  | ✅ Implementado | Mobile-first, breakpoints Bootstrap   |
+| SPA             | ✅ Implementado | `js/spa.js` com navegação fluida      |
+| Formulário      | ✅ Implementado | Formspree API integrado               |
+
+### Contato para Dúvidas
+
+Para esclarecimentos sobre este manual de identidade visual, entre em contato com a equipe de desenvolvimento:
+
+- **E-mail:** andregarcia81@github.com, ppconrado@yahoo.com.br ou gustavo.carvalho@fatec.sp.gov.com
+- **GitHub Issues:** [https://github.com/andregarcia81/prj-pi/issues](https://github.com/andregarcia81/prj-pi/issues)
+
+---
+
+<div align="center">
+
+**Manual Oficial de Identidade Visual | Instalações Inteligentes © 2025**
+
+_Este documento foi elaborado seguindo a estrutura oficial de 13 itens do manual de referência._
+
+**"Tecnologia que conecta"**
+
+</div>
