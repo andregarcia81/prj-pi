@@ -1181,7 +1181,7 @@ Data: **18 de Novembro de 2025**
 
 Para esclarecimentos sobre este manual de identidade visual, entre em contato com a equipe de desenvolvimento:
 
-- **E-mail:** andregarcia81@github.com, ppconrado@yahoo.com.br ou gustavo.carvalho@fatec.sp.gov.com
+- **E-mail:** andre.garcia17@factec.sp.gov.br, ppconrado@yahoo.com.br ou gustavo.alves52@fatec.sp.gov.br
 - **GitHub Issues:** [https://github.com/andregarcia81/prj-pi/issues](https://github.com/andregarcia81/prj-pi/issues)
 
 ---
