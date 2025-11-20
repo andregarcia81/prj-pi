@@ -218,6 +218,12 @@ img {
 }
 
 /* Imagens de serviços (index.html) */
+.service-link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .service-image {
   width: 100%;
   max-width: 100%;
@@ -231,6 +237,7 @@ img {
   margin-bottom: 1.5rem;
 }
 
+.service-link:hover .service-image,
 .service-image:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
