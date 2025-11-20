@@ -32,7 +32,7 @@ body {
 
 main#spa-content {
   flex: 1 0 auto;
-  padding-top: 80px; /* Espaço para o header fixo */
+  padding-top: 70px; /* Espaço para o header fixo */
 }
 
 h1,
@@ -55,7 +55,7 @@ p.lead {
 .navbar {
   font-family: 'Montserrat', sans-serif;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 0.5rem 0;
+  padding: 0.25rem 0;
 }
 
 /* Consolidated header style (replace bg-dark usage) */
@@ -95,11 +95,11 @@ p.lead {
 }
 
 .navbar-brand {
-  padding: 0.5rem 0;
+  padding: 0.25rem 0;
 }
 
 .navbar-brand img {
-  height: 80px;
+  height: 60px;
   width: auto;
   transition: transform 0.3s ease;
   border-radius: 0;
@@ -148,8 +148,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 80px;
-  padding: 0.75rem 0;
+  min-height: 60px;
+  padding: 0.5rem 0;
   margin-left: 0;
   margin-right: 0;
   max-width: 100%;
@@ -380,6 +380,60 @@ section {
 
   .btn {
     width: 100%;
+  }
+}
+
+/* Otimização para laptops com altura limitada (entre 600px e 800px) */
+@media (min-width: 769px) and (max-height: 800px) {
+  .navbar-brand img {
+    height: 50px;
+  }
+
+  main#spa-content {
+    padding-top: 60px;
+  }
+
+  .site-footer > .container,
+  .site-footer > .container-fluid {
+    min-height: 50px;
+    padding: 0.4rem 0;
+  }
+
+  section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Otimização para laptops muito baixos (abaixo de 700px altura) */
+@media (min-width: 769px) and (max-height: 700px) {
+  .navbar-brand img {
+    height: 45px;
+  }
+
+  main#spa-content {
+    padding-top: 55px;
+  }
+
+  .site-footer > .container,
+  .site-footer > .container-fluid {
+    min-height: 45px;
+    padding: 0.3rem 0;
+    font-size: 0.85rem;
+  }
+
+  section {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
