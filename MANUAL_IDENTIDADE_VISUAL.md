@@ -292,20 +292,21 @@ O nosso logotipo combina **elementos tecnológicos modernos** com **formas geom�
 
 A paleta de cores foi definida para evocar **profissionalismo, tecnologia e modernidade**. As cores foram extraídas do arquivo `css/estilo.css` e refletem a identidade visual implementada.
 
+> **📌 Nota para Desenvolvedores:**  
+> O GitHub sanitiza HTML/CSS inline por questões de segurança. Para visualizar as cores corretamente neste manual:
+> 
+> **Recomendação:** Crie imagens SVG ou PNG das amostras de cor e armazene em `img/colors/`. Exemplo:
+> ```markdown
+> ![Azul Tecnológico](img/colors/007AFF.svg) **#007AFF**
+> ```
+> Isso funciona perfeitamente no GitHub e mantém a documentação visual.
+
 ### Cores Primárias
 
-<div style="display: flex; gap: 20px; margin: 20px 0;">
-  <div style="background: #007AFF; color: white; padding: 20px; border-radius: 8px; flex: 1;">
-    <strong>Azul Tecnológico</strong><br>
-    #007AFF<br>
-    RGB(0, 122, 255)
-  </div>
-  <div style="background: #333333; color: white; padding: 20px; border-radius: 8px; flex: 1;">
-    <strong>Cinza Escuro</strong><br>
-    #333333<br>
-    RGB(51, 51, 51)
-  </div>
-</div>
+| Cor | Amostra | HEX | RGB |
+|-----|---------|-----|-----|
+| **Azul Tecnológico** | ![Azul Tecnológico](img/colors/007AFF.svg) | `#007AFF` | RGB(0, 122, 255) |
+| **Cinza Escuro** | ![Cinza Escuro](img/colors/333333.svg) | `#333333` | RGB(51, 51, 51) |
 
 **Aplicação:**
 
@@ -314,18 +315,10 @@ A paleta de cores foi definida para evocar **profissionalismo, tecnologia e mode
 
 ### Cores Secundárias
 
-<div style="display: flex; gap: 20px; margin: 20px 0;">
-  <div style="background: #00C9A7; color: white; padding: 20px; border-radius: 8px; flex: 1;">
-    <strong>Verde-Azulado</strong><br>
-    #00C9A7<br>
-    RGB(0, 201, 167)
-  </div>
-  <div style="background: #555555; color: white; padding: 20px; border-radius: 8px; flex: 1;">
-    <strong>Cinza Médio</strong><br>
-    #555555<br>
-    RGB(85, 85, 85)
-  </div>
-</div>
+| Cor | Amostra | HEX | RGB |
+|-----|---------|-----|-----|
+| **Verde-Azulado** | ![Verde-Azulado](img/colors/00C9A7.svg) | `#00C9A7` | RGB(0, 201, 167) |
+| **Cinza Médio** | ![Cinza Médio](img/colors/555555.svg) | `#555555` | RGB(85, 85, 85) |
 
 **Aplicação:**
 
@@ -334,23 +327,11 @@ A paleta de cores foi definida para evocar **profissionalismo, tecnologia e mode
 
 ### Cores Neutras
 
-<div style="display: flex; gap: 20px; margin: 20px 0;">
-  <div style="background: #FFFFFF; border: 1px solid #ccc; padding: 20px; border-radius: 8px; flex: 1;">
-    <strong>Branco</strong><br>
-    #FFFFFF<br>
-    RGB(255, 255, 255)
-  </div>
-  <div style="background: #F8F9FA; border: 1px solid #ccc; padding: 20px; border-radius: 8px; flex: 1;">
-    <strong>Cinza Claro (Fundo)</strong><br>
-    #F8F9FA<br>
-    RGB(248, 249, 250)
-  </div>
-  <div style="background: #CCCCCC; padding: 20px; border-radius: 8px; flex: 1;">
-    <strong>Cinza Borda</strong><br>
-    #CCCCCC<br>
-    RGB(204, 204, 204)
-  </div>
-</div>
+| Cor | Amostra | HEX | RGB |
+|-----|---------|-----|-----|
+| **Branco** | ![Branco](img/colors/FFFFFF.svg) | `#FFFFFF` | RGB(255, 255, 255) |
+| **Cinza Claro (Fundo)** | ![Cinza Claro](img/colors/F8F9FA.svg) | `#F8F9FA` | RGB(248, 249, 250) |
+| **Cinza Borda** | ![Cinza Borda](img/colors/CCCCCC.svg) | `#CCCCCC` | RGB(204, 204, 204) |
 
 **Aplicação:**
 
@@ -360,15 +341,15 @@ A paleta de cores foi definida para evocar **profissionalismo, tecnologia e mode
 
 ### Tabela de Cores com Aplicações
 
-| Cor                     | HEX       | Uso Principal                    | Onde Encontrar                 |
-| ----------------------- | --------- | -------------------------------- | ------------------------------ |
-| 🔵 **Azul Tecnológico** | `#007AFF` | Títulos, botões primários, links | `.btn-primary`, `h1-h5`        |
-| ⚫ **Cinza Escuro**     | `#333333` | Header, footer, textos           | `.site-header`, `.site-footer` |
-| 🟢 **Verde-Azulado**    | `#00C9A7` | Botões de sucesso, CTAs          | `.btn-success`                 |
-| 🔘 **Cinza Médio**      | `#555555` | Textos secundários               | `p.lead`                       |
-| ⚪ **Branco**           | `#FFFFFF` | Fundos, contraste                | `body`, `section`              |
-| 🔳 **Cinza Claro**      | `#F8F9FA` | Background geral                 | `body background-color`        |
-| ◻️ **Cinza Borda**      | `#CCCCCC` | Bordas de campos                 | `input border`                 |
+| Cor | Amostra | HEX | Uso Principal | Onde Encontrar |
+|-----|---------|-----|---------------|----------------|
+| **Azul Tecnológico** | ![#007AFF](img/colors/007AFF.svg) | `#007AFF` | Títulos, botões primários, links | `.btn-primary`, `h1-h5` |
+| **Cinza Escuro** | ![#333333](img/colors/333333.svg) | `#333333` | Header, footer, textos | `.site-header`, `.site-footer` |
+| **Verde-Azulado** | ![#00C9A7](img/colors/00C9A7.svg) | `#00C9A7` | Botões de sucesso, CTAs | `.btn-success` |
+| **Cinza Médio** | ![#555555](img/colors/555555.svg) | `#555555` | Textos secundários | `p.lead` |
+| **Branco** | ![#FFFFFF](img/colors/FFFFFF.svg) | `#FFFFFF` | Fundos, contraste | `body`, `section` |
+| **Cinza Claro** | ![#F8F9FA](img/colors/F8F9FA.svg) | `#F8F9FA` | Background geral | `body background-color` |
+| **Cinza Borda** | ![#CCCCCC](img/colors/CCCCCC.svg) | `#CCCCCC` | Bordas de campos | `input border` |
 
 ### Contraste e Acessibilidade
 
