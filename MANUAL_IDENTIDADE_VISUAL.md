@@ -554,7 +554,7 @@ Exemplos visuais de como a identidade visual deve ser aplicada nos principais po
 
 **Reprodução visual do Header do projeto:**
 
-![Header Real do Projeto](img/mockups/header-real.svg)
+![Header Real do Projeto](img/mockups/header.png)
 
 **Especificações do Header:**
 
