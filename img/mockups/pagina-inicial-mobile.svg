@@ -1,0 +1,59 @@
+<svg width="375" height="667" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Fundo do dispositivo -->
+  <rect width="375" height="667" fill="#000000" rx="30"/>
+  <rect x="10" y="10" width="355" height="647" fill="#ffffff" rx="20"/>
+  
+  <!-- Notch -->
+  <rect x="140" y="10" width="95" height="20" fill="#000000" rx="10"/>
+  
+  <!-- Navbar mobile -->
+  <rect x="10" y="35" width="355" height="60" fill="#212529"/>
+  <image xlink:href="../logo/logo-versao-02-horizontal.png" x="25" y="45" height="40"/>
+  
+  <!-- Menu hamburger -->
+  <rect x="320" y="55" width="25" height="3" fill="#ffffff" rx="1"/>
+  <rect x="320" y="62" width="25" height="3" fill="#ffffff" rx="1"/>
+  <rect x="320" y="69" width="25" height="3" fill="#ffffff" rx="1"/>
+  
+  <!-- Hero Section Mobile -->
+  <rect x="10" y="95" width="355" height="200" fill="#f8f9fa"/>
+  
+  <!-- Logo central menor -->
+  <image xlink:href="../logo/logo-versao-02-horizontal.png" x="87" y="110" width="200"/>
+  
+  <!-- Título -->
+  <text x="187" y="190" font-family="Montserrat, sans-serif" font-size="18" fill="#333333" text-anchor="middle" font-weight="700">Tecnologia que conecta</text>
+  
+  <!-- Subtítulo menor -->
+  <text x="187" y="210" font-family="Poppins, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Soluções em instalações elétricas,</text>
+  <text x="187" y="225" font-family="Poppins, sans-serif" font-size="11" fill="#666666" text-anchor="middle">redes e IoT</text>
+  
+  <!-- Botão mobile -->
+  <rect x="67" y="240" width="240" height="40" fill="#0d6efd" rx="6"/>
+  <text x="187" y="266" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">SOLICITE UM ORÇAMENTO</text>
+  
+  <!-- Serviços Section Mobile -->
+  <text x="187" y="325" font-family="Montserrat, sans-serif" font-size="20" fill="#333333" text-anchor="middle" font-weight="700">Nossos Serviços</text>
+  
+  <!-- Card 1 Mobile -->
+  <rect x="30" y="345" width="315" height="80" fill="#f8f9fa" rx="6"/>
+  <rect x="50" y="360" width="80" height="50" fill="#0d6efd" opacity="0.2" rx="4"/>
+  <text x="150" y="383" font-family="Montserrat, sans-serif" font-size="14" fill="#333333" font-weight="600">Instalações Elétricas</text>
+  <text x="150" y="400" font-family="Poppins, sans-serif" font-size="10" fill="#666666">Projetos seguros e eficientes</text>
+  
+  <!-- Card 2 Mobile -->
+  <rect x="30" y="435" width="315" height="80" fill="#f8f9fa" rx="6"/>
+  <rect x="50" y="450" width="80" height="50" fill="#198754" opacity="0.2" rx="4"/>
+  <text x="150" y="473" font-family="Montserrat, sans-serif" font-size="14" fill="#333333" font-weight="600">Cabeamento Estruturado</text>
+  <text x="150" y="490" font-family="Poppins, sans-serif" font-size="10" fill="#666666">Organização e desempenho</text>
+  
+  <!-- Card 3 Mobile -->
+  <rect x="30" y="525" width="315" height="80" fill="#f8f9fa" rx="6"/>
+  <rect x="50" y="540" width="80" height="50" fill="#ffc107" opacity="0.2" rx="4"/>
+  <text x="150" y="563" font-family="Montserrat, sans-serif" font-size="14" fill="#333333" font-weight="600">Internet das Coisas</text>
+  <text x="150" y="580" font-family="Poppins, sans-serif" font-size="10" fill="#666666">Automação e controle</text>
+  
+  <!-- Footer Mobile -->
+  <rect x="10" y="615" width="355" height="42" fill="#212529"/>
+  <text x="187" y="640" font-family="Poppins, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle">© 2025 Instalações Inteligentes</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Fundo branco -->
+  <rect width="300" height="200" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" rx="8"/>
+  
+  <!-- Logo colorido incorporado -->
+  <image xlink:href="../logo/logo.svg" x="75" y="30" width="150" height="150"/>
+  
+  <!-- Label -->
+  <text x="150" y="195" font-family="Poppins, sans-serif" font-size="14" fill="#333333" text-anchor="middle" font-weight="600">Colorido (Principal)</text>
+</svg>

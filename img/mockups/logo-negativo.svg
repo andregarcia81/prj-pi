@@ -1,0 +1,10 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Fundo cinza escuro -->
+  <rect width="300" height="200" fill="#333333" rx="8"/>
+  
+  <!-- Logo header (negativo/branco) incorporado -->
+  <image xlink:href="../logo/logo-header.svg" x="30" y="70" height="60"/>
+  
+  <!-- Label -->
+  <text x="150" y="195" font-family="Poppins, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">Negativo (Fundo Escuro)</text>
+</svg>

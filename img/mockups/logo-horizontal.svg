@@ -1,0 +1,11 @@
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Fundo branco -->
+  <rect width="600" height="200" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" rx="8"/>
+  
+  <!-- Logo horizontal V02 incorporado -->
+  <image xlink:href="../logo/logo-versao-02-horizontal.png" x="50" y="40" height="120"/>
+  
+  <!-- Label -->
+  <text x="300" y="180" font-family="Poppins, sans-serif" font-size="14" fill="#333333" text-anchor="middle" font-weight="600">Versão Horizontal</text>
+  <text x="300" y="195" font-family="Poppins, sans-serif" font-size="11" fill="#666666" text-anchor="middle">logo-versao-02-horizontal.png</text>
+</svg>

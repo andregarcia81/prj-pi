@@ -1,0 +1,14 @@
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo vermelho claro indicando proibição -->
+  <rect width="200" height="100" fill="#fee" rx="8"/>
+  
+  <!-- Logo esticado (distorcido) -->
+  <ellipse cx="100" cy="50" rx="70" ry="30" fill="#007AFF" opacity="0.5"/>
+  
+  <!-- X vermelho grande -->
+  <line x1="20" y1="20" x2="180" y2="80" stroke="#dc3545" stroke-width="8" stroke-linecap="round"/>
+  <line x1="180" y1="20" x2="20" y2="80" stroke="#dc3545" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Texto -->
+  <text x="100" y="95" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">❌ ESTICAR</text>
+</svg>

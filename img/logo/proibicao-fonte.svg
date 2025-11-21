@@ -1,0 +1,14 @@
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo vermelho claro indicando proibição -->
+  <rect width="200" height="100" fill="#fee" rx="8"/>
+  
+  <!-- Logo com fonte errada (Comic Sans representado) -->
+  <text x="100" y="50" font-family="Comic Sans MS, cursive" font-size="36" fill="#007AFF" text-anchor="middle" font-weight="bold">Aa</text>
+  
+  <!-- X vermelho grande -->
+  <line x1="20" y1="20" x2="180" y2="80" stroke="#dc3545" stroke-width="8" stroke-linecap="round"/>
+  <line x1="180" y1="20" x2="20" y2="80" stroke="#dc3545" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Texto -->
+  <text x="100" y="95" font-family="Arial" font-size="12" fill="#333" text-anchor="middle" font-weight="bold">❌ FONTE ERRADA</text>
+</svg>

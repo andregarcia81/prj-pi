@@ -99,8 +99,6 @@ Aliviar a **complexidade de gerenciar múltiplos prestadores de serviço** para 
 
 Nosso projeto propõe um diferencial de **integração total entre três áreas cruciais** (elétrica, rede e IoT), com uma **experiência digital moderna através de um site SPA (Single Page Application)** que oferece navegação fluida, formulário de contato com envio real de e-mails via API (Formspree) e design responsivo profissional.
 
----
-
 ## 4. Slogan
 
 > **"Tecnologia que conecta"**
@@ -145,6 +143,23 @@ O processo criativo foi uma jornada de experimentação, descarte e refinamento.
 1. **Versão Inicial**: Logo com elementos muito complexos (descartado)
 2. **Versão Intermediária**: Simplificação das formas
 3. **Versão Final**: Logo limpo, profissional, SVG vetorial
+
+**Versões Anteriores:**
+
+<table>
+<tr>
+<td align="center">
+<img src="img/logo/matriz-favicon.ico" alt="Versão 01" width="150"/><br/>
+<strong>V01 - Versão Inicial</strong><br/>
+Favicon original - Formato ICO
+</td>
+<td align="center">
+<img src="img/logo/logo-versao-02-horizontal.png" alt="Versão 02" width="300"/><br/>
+<strong>V02 - Versão Horizontal</strong><br/>
+Layout horizontal - Formato PNG
+</td>
+</tr>
+</table>
 
 **Arquivo final:** `img/logo/logo.svg` (1024x1024px)
 
@@ -230,6 +245,52 @@ O nosso logotipo combina **elementos tecnológicos modernos** com **formas geom�
 
 ### Versões Disponíveis
 
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="img/logo/logo.svg" alt="Logo Colorido" width="150"/><br/><br/>
+<strong>🎨 Colorido (Principal)</strong><br/>
+Arquivo: <code>logo.svg</code><br/>
+Website, materiais digitais
+</td>
+<td align="center" width="33%">
+<div style="background: #333333; padding: 30px; border-radius: 8px;">
+<img src="img/logo/logo-header.svg" alt="Logo Negativo" height="60"/>
+</div><br/>
+<strong>⚪ Negativo</strong><br/>
+Fundo escuro #333333<br/>
+Header, navbar, rodapé
+</td>
+<td align="center" width="33%">
+<img src="img/logo/matriz-favicon.png" alt="Favicon" width="100"/><br/><br/>
+<strong>📱 Ícone Reduzido</strong><br/>
+Arquivo: <code>matriz-favicon.png</code><br/>
+32x32px, 48x48px
+</td>
+</tr>
+</table>
+
+### Versões Alternativas
+
+<table>
+<tr>
+<td align="center" width="50%">
+<img src="img/logo/logo-versao-02-horizontal.png" alt="Logo Horizontal" height="120"/><br/><br/>
+<strong>Horizontal</strong><br/>
+Arquivo: <code>logo-versao-02-horizontal.png</code><br/>
+Uso: Versão alternativa horizontal
+</td>
+<td align="center" width="50%">
+<img src="img/logo/logo.svg" alt="Logo Vertical" width="150"/><br/><br/>
+<strong>Vertical</strong><br/>
+Arquivo: <code>logo.svg</code> | Até 300px largura<br/>
+Uso: Hero section, páginas internas
+</td>
+</tr>
+</table>
+
+### Especificações Detalhadas
+
 #### 🎨 Colorido (Principal)
 
 **Arquivo:** `img/logo/logo.svg`
@@ -259,27 +320,23 @@ O nosso logotipo combina **elementos tecnológicos modernos** com **formas geom�
 - **Formato:** PNG
 - **Uso:** Favicon do navegador
 
-### Versões Alternativas
+### Código de Implementação
 
-#### Horizontal
-
-**Arquivo:** `img/logo/logo-header.svg`
-
-- **Altura:** 80px (padrão navbar)
-- **Proporção:** Mantém aspect ratio original
-- **Aplicação:** Header do site
-
-**Código de exemplo:**
+#### Horizontal (Versão Alternativa)
 
 ```html
 <img
-  src="img/logo/logo-header.svg"
+  src="img/logo/logo-versao-02-horizontal.png"
   alt="Instalações Inteligentes"
-  height="80px"
+  height="120px"
 />
 ```
 
-#### Vertical
+#### Vertical (Hero Section)
+
+```html
+<img src="img/logo/logo.svg" alt="Logo" class="mb-4" style="max-width: 300px" />
+```
 
 **Uso:** Hero section, páginas internas
 
@@ -491,6 +548,50 @@ Exemplos visuais de como a identidade visual deve ser aplicada nos principais po
 
 ### Aplicação no Cabeçalho (Header)
 
+**Logo utilizado no header:**
+
+![Logo no Header](img/logo/logo-header.svg)
+
+**Reprodução visual do Header do projeto:**
+
+![Header Real do Projeto](img/mockups/header-real.svg)
+
+**Especificações do Header:**
+
+```html
+<nav class="navbar navbar-expand-lg navbar-dark site-header">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/logo/logo-header.svg" alt="Instalações Inteligentes" />
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="eletrica.html">Elétrica</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="rede.html">Rede</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="iot.html">IoT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projetos.html">Projetos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+```
+
+**Especificações do Header:**
+
 ```html
 <nav class="navbar navbar-expand-lg navbar-dark site-header">
   <div class="container-fluid">
@@ -514,7 +615,42 @@ Exemplos visuais de como a identidade visual deve ser aplicada nos principais po
 - Posição: Fixa no topo (fixed)
 - Sombra: `box-shadow: 0 2px 4px rgba(0,0,0,0.1)`
 
+### Logo na Hero Section (Página Inicial)
+
+![Logo Principal](img/logo/logo.svg)
+
+**Aplicação na Hero Section:**
+
+A hero section utiliza o logo principal em tamanho maior (até 300px de largura) para criar impacto visual imediato. O logo é centralizado e acompanhado do slogan **"Tecnologia que conecta"** logo abaixo.
+
+**Código de implementação:**
+
+```html
+<section class="bg-light text-center py-5">
+  <div class="container">
+    <img
+      src="img/logo/logo.svg"
+      alt="Logo"
+      class="mb-4"
+      style="max-width: 300px"
+    />
+    <h1 class="display-5 fw-bold">Tecnologia que conecta</h1>
+    <p class="lead">
+      Soluções em instalações elétricas, redes e IoT para ambientes
+      inteligentes.
+    </p>
+    <a href="contato.html#contact-form" class="btn btn-primary btn-lg">
+      Solicite um orçamento
+    </a>
+  </div>
+</section>
+```
+
 ### Exemplo de Botões (Primário/Secundário)
+
+![Aplicação de Botões e Cards](img/mockups/aplicacao-botoes.svg)
+
+**Tipos de Botões:**
 
 ```html
 <!-- Botão Primário -->
@@ -533,7 +669,17 @@ Exemplos visuais de como a identidade visual deve ser aplicada nos principais po
 - **Secundário**: Fundo `#00C9A7`, texto branco
 - **Neutro**: Borda cinza, fundo transparente
 
+**Exemplo de Card de Serviço:**
+O mockup acima também demonstra como os cards de serviços são estruturados, combinando:
+
+- Imagem com `border-radius: 8px`
+- Título em Montserrat Bold (`#007AFF`)
+- Descrição em Poppins Regular (`#555555`)
+- Botão CTA primário
+
 ### Uso em Dispositivos (Mobile Mockup)
+
+![Aplicação em Dispositivos](img/mockups/aplicacao-dispositivos.svg)
 
 **Responsividade:**
 
@@ -602,6 +748,45 @@ Exemplos visuais de como a identidade visual deve ser aplicada nos principais po
 ## 11. Proibições de Uso
 
 Para manter a integridade visual da marca, as seguintes práticas são **estritamente proibidas**.
+
+### Exemplos Visuais de Proibições
+
+<table>
+<tr>
+<td align="center">
+<img src="img/logo/proibicao-esticar.svg" alt="Proibido Esticar" width="200"/><br/>
+<strong>❌ Esticar o Logo</strong><br/>
+Não alterar proporções do logo
+</td>
+<td align="center">
+<img src="img/logo/proibicao-cores.svg" alt="Proibido Mudar Cores" width="200"/><br/>
+<strong>❌ Mudar as Cores</strong><br/>
+Usar apenas paleta oficial
+</td>
+<td align="center">
+<img src="img/logo/proibicao-contraste.svg" alt="Proibido Baixo Contraste" width="200"/><br/>
+<strong>❌ Baixo Contraste</strong><br/>
+Garantir contraste mínimo 4.5:1
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="img/logo/proibicao-sombra.svg" alt="Proibido Sombra Exagerada" width="200"/><br/>
+<strong>❌ Sombra Exagerada</strong><br/>
+Usar apenas sombra sutil
+</td>
+<td align="center">
+<img src="img/logo/proibicao-filtros.svg" alt="Proibido Filtros" width="200"/><br/>
+<strong>❌ Aplicar Filtros</strong><br/>
+Sem blur, hue-rotate, sepia
+</td>
+<td align="center">
+<img src="img/logo/proibicao-fonte.svg" alt="Proibido Fonte Errada" width="200"/><br/>
+<strong>❌ Alterar Tipografia</strong><br/>
+Somente Montserrat e Poppins
+</td>
+</tr>
+</table>
 
 ### ❌ Esticar o Logo
 
@@ -700,20 +885,29 @@ body {
 
 Demonstração da coerência entre o design proposto no manual e a interface construída. Este é o teste final de consistência.
 
+> **💻 Site Publicado:**  
+> **GitHub Pages:** [https://andregarcia81.github.io/prj-pi/](https://andregarcia81.github.io/prj-pi/)  
+> **Repositório:** [https://github.com/andregarcia81/prj-pi](https://github.com/andregarcia81/prj-pi)
+
 ### Página Inicial (Desktop)
+
+**Mockup baseado no primeiro commit do projeto:**
+
+![Página Inicial Desktop](img/mockups/pagina-inicial-desktop.svg)
 
 **URL:** `index.html`
 
 **Elementos aplicados:**
 
-- ✅ Logo no header (80px altura)
-- ✅ Navegação com Montserrat
-- ✅ Hero section com logo centralizado (300px)
-- ✅ Botão CTA primário (`#007AFF`)
-- ✅ Cards de serviços com imagens rounded
-- ✅ Rodapé com fundo `#333333`
+- ✅ Logo no header (`logo-versao-02-horizontal.png`, 80px altura)
+- ✅ Navegação com menu horizontal
+- ✅ Hero section com logo centralizado (450px largura)
+- ✅ Slogan "Tecnologia que conecta" em Montserrat Bold
+- ✅ Botão CTA primário (azul Bootstrap `#0D6EFD`)
+- ✅ Cards de serviços com imagens e descrições
+- ✅ Rodapé com fundo escuro (`#212529`)
 
-**Código da página inicial:**
+**Código da página inicial (primeiro commit):**
 
 ```html
 <main id="spa-content" class="spa-fade-in">
@@ -721,17 +915,17 @@ Demonstração da coerência entre o design proposto no manual e a interface con
   <section class="bg-light text-center py-5">
     <div class="container">
       <img
-        src="img/logo/logo.svg"
+        src="img/logo/logo-versao-02-horizontal.png"
         alt="Logo"
         class="mb-4"
-        style="max-width: 300px"
+        style="max-width: 450px"
       />
       <h1 class="display-5 fw-bold">Tecnologia que conecta</h1>
       <p class="lead">
         Soluções em instalações elétricas, redes e IoT para ambientes
         inteligentes.
       </p>
-      <a href="contato.html#contact-form" class="btn btn-primary btn-lg">
+      <a href="contato.html" class="btn btn-primary btn-lg">
         Solicite um orçamento
       </a>
     </div>
@@ -755,6 +949,10 @@ Demonstração da coerência entre o design proposto no manual e a interface con
 ```
 
 ### Versão Mobile e Páginas Internas
+
+**Mockup Mobile baseado no primeiro commit:**
+
+![Versão Mobile](img/mockups/pagina-inicial-mobile.svg)
 
 **Páginas implementadas:**
 
@@ -1058,58 +1256,68 @@ showToaster(
 
 ### 👨‍💻 Equipe de Desenvolvimento
 
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin: 30px 0;">
-
-<div style="text-align: center; padding: 20px; border: 2px solid #007AFF; border-radius: 10px;">
-  <h3>1️⃣ Andre Garcia</h3>
-  <p><strong>Função:</strong> Desenvolvedor Full Stack / Designer de Interface</p>
-  <p><strong>Responsabilidades:</strong></p>
-  <ul style="text-align: left;">
-    <li>Arquitetura SPA (Single Page Application)</li>
-    <li>Integração Formspree (envio de e-mails)</li>
-    <li>Design responsivo e UX</li>
-    <li>Gestão de repositório Git</li>
-  </ul>
-  <p>📧 <a href="mailto:andregarcia81@github.com">andregarcia81@github.com</a></p>
-  <p>🔗 <a href="https://github.com/andregarcia81">@andregarcia81</a></p>
-</div>
-
-<div style="text-align: center; padding: 20px; border: 2px solid #00C9A7; border-radius: 10px;">
-  <h3>2️⃣ Jose Paulo Archetti Conrado</h3>
-  <p><strong>Função:</strong> Desenvolvedor Front-end / Documentação</p>
-  <p><strong>Responsabilidades:</strong></p>
-  <ul style="text-align: left;">
-    <li>Implementação de componentes</li>
-    <li>Otimização de performance</li>
-    <li>Testes e validação</li>
-    <li>Documentação técnica (README.md)</li>
-  </ul>
-  <p>📧 <a href="mailto:ppconrado@yahoo.com.br">ppconrado@yahoo.com.br</a></p>
-  <p>🔗 <a href="https://github.com/ppconrado">@ppconrado</a></p>
-</div>
-
-<div style="text-align: center; padding: 20px; border: 2px solid #555555; border-radius: 10px;">
-  <h3>3️⃣ Gustavo Carvalho</h3>
-  <p><strong>Função:</strong> Desenvolvedor / Designer Visual</p>
-  <p><strong>Responsabilidades:</strong></p>
-  <ul style="text-align: left;">
-    <li>Identidade visual da marca</li>
-    <li>Manual de identidade visual</li>
-    <li>Design de interfaces</li>
-    <li>Padronização visual</li>
-  </ul>
-  <p>📧 <a href="mailto:gustavo.carvalho@fatec.sp.gov.com">gustavo.carvalho@fatec.sp.gov.com</a></p>
-</div>
-
-</div>
+<table>
+<tr>
+<td align="center" width="33%">
+<h3>1️⃣ Andre Garcia</h3>
+<p><strong>Função:</strong> Desenvolvedor Full Stack / Designer de Interface</p>
+<p><strong>Responsabilidades:</strong></p>
+<ul align="left">
+<li>Arquitetura SPA (Single Page Application)</li>
+<li>Integração Formspree (envio de e-mails)</li>
+<li>Design responsivo e UX</li>
+<li>Gestão de repositório Git</li>
+</ul>
+<p>📧 <a href="mailto:andre.garcia17@fatec.sp.gov.br">andre.garcia17@fatec.sp.gov.br</a></p>
+<p>🔗 <a href="https://github.com/andregarcia81">@andregarcia81</a></p>
+</td>
+<td align="center" width="33%">
+<h3>2️⃣ Jose Paulo Archetti Conrado</h3>
+<p><strong>Função:</strong> Desenvolvedor Front-end / Documentação</p>
+<p><strong>Responsabilidades:</strong></p>
+<ul align="left">
+<li>Implementação de componentes</li>
+<li>Otimização de performance</li>
+<li>Testes e validação</li>
+<li>Documentação técnica (README.md)</li>
+</ul>
+<p>📧 <a href="mailto:ppconrado@yahoo.com.br">ppconrado@yahoo.com.br</a></p>
+<p>🔗 <a href="https://github.com/ppconrado">@ppconrado</a></p>
+</td>
+<td align="center" width="33%">
+<h3>3️⃣ Gustavo Carvalho</h3>
+<p><strong>Função:</strong> Desenvolvedor / Designer Visual</p>
+<p><strong>Responsabilidades:</strong></p>
+<ul align="left">
+<li>Identidade visual da marca</li>
+<li>Manual de identidade visual</li>
+<li>Design de interfaces</li>
+<li>Padronização visual</li>
+</ul>
+<p>📧 <a href="mailto:gustavo.alves52@fatec.sp.gov.br">gustavo.alves52@fatec.sp.gov.br</a></p>
+</td>
+</tr>
+</table>
 
 ### 📚 Instituição de Ensino
 
 **FATEC - Faculdade de Tecnologia**  
 Curso: **DSM - Desenvolvimento de Software Multiplataforma**  
 Disciplina: **Design Digital / Projeto Integrador**  
-Professor: **[Nome do Professor]**  
+Professor: **Érick**  
 Data: **18 de Novembro de 2025**
+
+---
+
+<div align="center">
+
+**Manual Oficial de Identidade Visual | Instalações Inteligentes © 2025**
+
+_Este documento foi elaborado seguindo a estrutura oficial de 13 itens do manual de referência._
+
+**"Tecnologia que conecta"**
+
+</div>
 
 ### 🙏 Agradecimentos
 

@@ -1,0 +1,29 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo do header -->
+  <rect width="800" height="300" fill="#f8f9fa"/>
+  
+  <!-- Header navbar -->
+  <rect width="800" height="80" fill="#333333"/>
+  
+  <!-- Logo no header -->
+  <circle cx="60" cy="40" r="25" fill="#007AFF"/>
+  <text x="95" y="48" font-family="Montserrat, sans-serif" font-size="18" fill="#ffffff" font-weight="700">Instalações Inteligentes</text>
+  
+  <!-- Menu items -->
+  <text x="600" y="48" font-family="Montserrat, sans-serif" font-size="14" fill="rgba(255,255,255,0.7)">Início</text>
+  <text x="660" y="48" font-family="Montserrat, sans-serif" font-size="14" fill="rgba(255,255,255,0.7)">Elétrica</text>
+  <text x="720" y="48" font-family="Montserrat, sans-serif" font-size="14" fill="rgba(255,255,255,0.7)">Contato</text>
+  
+  <!-- Hero section -->
+  <rect y="80" width="800" height="220" fill="#ffffff"/>
+  
+  <!-- Logo central grande -->
+  <circle cx="400" cy="150" r="40" fill="#007AFF"/>
+  
+  <!-- Título -->
+  <text x="400" y="220" font-family="Montserrat, sans-serif" font-size="28" fill="#007AFF" text-anchor="middle" font-weight="700">Tecnologia que conecta</text>
+  
+  <!-- Botão CTA -->
+  <rect x="320" y="240" width="160" height="40" fill="#007AFF" rx="6"/>
+  <text x="400" y="265" font-family="Montserrat, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">SOLICITE UM ORÇAMENTO</text>
+</svg>

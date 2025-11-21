@@ -1,0 +1,73 @@
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="900" height="600" fill="#e0e0e0"/>
+  
+  <!-- Desktop -->
+  <g transform="translate(50, 50)">
+    <!-- Tela -->
+    <rect width="500" height="350" fill="#ffffff" rx="8" stroke="#333333" stroke-width="3"/>
+    <!-- Base -->
+    <rect x="200" y="350" width="100" height="20" fill="#666666"/>
+    <rect x="150" y="370" width="200" height="10" fill="#333333" rx="5"/>
+    
+    <!-- Conteúdo da tela -->
+    <!-- Header -->
+    <rect width="500" height="50" fill="#333333" rx="8 8 0 0"/>
+    <circle cx="30" cy="25" r="12" fill="#007AFF"/>
+    
+    <!-- Hero -->
+    <circle cx="250" cy="125" r="25" fill="#007AFF" opacity="0.5"/>
+    <rect x="150" y="165" width="200" height="15" fill="#007AFF" opacity="0.3" rx="2"/>
+    
+    <!-- Cards -->
+    <rect x="30" y="200" width="130" height="120" fill="#f8f9fa" rx="4"/>
+    <rect x="185" y="200" width="130" height="120" fill="#f8f9fa" rx="4"/>
+    <rect x="340" y="200" width="130" height="120" fill="#f8f9fa" rx="4"/>
+  </g>
+  
+  <!-- Tablet -->
+  <g transform="translate(600, 100)">
+    <!-- Dispositivo -->
+    <rect width="240" height="320" fill="#333333" rx="12"/>
+    <rect x="10" y="10" width="220" height="300" fill="#ffffff" rx="4"/>
+    
+    <!-- Conteúdo -->
+    <rect x="10" y="10" width="220" height="35" fill="#333333" rx="4 4 0 0"/>
+    <circle cx="120" cy="27" r="8" fill="#007AFF"/>
+    
+    <circle cx="120" cy="100" r="20" fill="#007AFF" opacity="0.5"/>
+    <rect x="60" y="135" width="120" height="10" fill="#007AFF" opacity="0.3" rx="2"/>
+    
+    <rect x="20" y="165" width="200" height="60" fill="#f8f9fa" rx="4"/>
+    <rect x="20" y="235" width="200" height="60" fill="#f8f9fa" rx="4"/>
+  </g>
+  
+  <!-- Smartphone -->
+  <g transform="translate(700, 200)">
+    <!-- Dispositivo -->
+    <rect width="140" height="280" fill="#333333" rx="20"/>
+    <rect x="10" y="20" width="120" height="240" fill="#ffffff" rx="4"/>
+    
+    <!-- Notch -->
+    <rect x="50" y="20" width="40" height="10" fill="#333333" rx="5"/>
+    
+    <!-- Conteúdo -->
+    <rect x="10" y="35" width="120" height="30" fill="#333333" rx="0"/>
+    <circle cx="70" cy="50" r="6" fill="#007AFF"/>
+    
+    <circle cx="70" cy="100" r="15" fill="#007AFF" opacity="0.5"/>
+    <rect x="35" y="125" width="70" height="8" fill="#007AFF" opacity="0.3" rx="2"/>
+    
+    <rect x="20" y="150" width="100" height="40" fill="#f8f9fa" rx="4"/>
+    <rect x="20" y="200" width="100" height="40" fill="#f8f9fa" rx="4"/>
+  </g>
+  
+  <!-- Labels -->
+  <text x="300" y="440" font-family="Montserrat, sans-serif" font-size="16" fill="#333333" text-anchor="middle" font-weight="700">Desktop</text>
+  <text x="720" y="440" font-family="Montserrat, sans-serif" font-size="16" fill="#333333" text-anchor="middle" font-weight="700">Tablet</text>
+  <text x="770" y="510" font-family="Montserrat, sans-serif" font-size="16" fill="#333333" text-anchor="middle" font-weight="700">Mobile</text>
+  
+  <!-- Descrição -->
+  <text x="450" y="540" font-family="Poppins, sans-serif" font-size="14" fill="#555555" text-anchor="middle">Design Responsivo - Adaptado para todos os dispositivos</text>
+  <text x="450" y="565" font-family="Poppins, sans-serif" font-size="13" fill="#007AFF" text-anchor="middle">Logo 80px (Desktop) | 70px (Tablet) | 60px (Mobile)</text>
+</svg>

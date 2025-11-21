@@ -1,0 +1,16 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Fundo branco -->
+  <rect width="300" height="400" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" rx="8"/>
+  
+  <!-- Logo vertical (principal) incorporado -->
+  <image xlink:href="../logo/logo.svg" x="75" y="50" width="150" height="150"/>
+  
+  <!-- Texto abaixo do logo -->
+  <text x="150" y="230" font-family="Montserrat, sans-serif" font-size="20" fill="#007AFF" text-anchor="middle" font-weight="700">Instalações</text>
+  <text x="150" y="255" font-family="Montserrat, sans-serif" font-size="20" fill="#007AFF" text-anchor="middle" font-weight="700">Inteligentes</text>
+  <text x="150" y="280" font-family="Poppins, sans-serif" font-size="12" fill="#555555" text-anchor="middle" style="font-style: italic;">Tecnologia que conecta</text>
+  
+  <!-- Label -->
+  <text x="150" y="370" font-family="Poppins, sans-serif" font-size="14" fill="#333333" text-anchor="middle" font-weight="600">Versão Vertical</text>
+  <text x="150" y="385" font-family="Poppins, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Hero section, páginas internas</text>
+</svg>

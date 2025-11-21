@@ -1,0 +1,40 @@
+<svg width="1200" height="80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Fundo do header -->
+  <rect width="1200" height="80" fill="#333333"/>
+  
+  <!-- Logo real incorporado (lado esquerdo) -->
+  <image xlink:href="../logo/logo-header.svg" x="20" y="10" height="60"/>
+  
+  <!-- Menu de navegação (lado direito) -->
+  <g font-family="Montserrat, sans-serif" font-size="15" fill="rgba(255,255,255,0.7)">
+    <text x="880" y="45">Início</text>
+    <text x="950" y="45">Elétrica</text>
+    <text x="1030" y="45">Rede</text>
+    <text x="1090" y="45">IoT</text>
+  </g>
+  
+  <!-- Mais itens do menu -->
+  <g font-family="Montserrat, sans-serif" font-size="15" fill="rgba(255,255,255,0.7)">
+    <text x="880" y="45">Início</text>
+    <text x="945" y="45">Elétrica</text>
+    <text x="1020" y="45">Rede</text>
+    <text x="1075" y="45">IoT</text>
+    <text x="1110" y="45">Projetos</text>
+  </g>
+  
+  <!-- Refazendo com espaçamento correto -->
+  <rect width="1200" height="80" fill="#333333"/>
+  <image xlink:href="../logo/logo-header.svg" x="30" y="10" height="60"/>
+  
+  <g font-family="Montserrat, sans-serif" font-size="14" font-weight="400">
+    <text x="850" y="45" fill="rgba(255,255,255,0.7)">Início</text>
+    <text x="920" y="45" fill="rgba(255,255,255,0.7)">Elétrica</text>
+    <text x="1000" y="45" fill="rgba(255,255,255,0.7)">Rede</text>
+    <text x="1060" y="45" fill="rgba(255,255,255,0.7)">IoT</text>
+    <text x="1105" y="45" fill="rgba(255,255,255,0.7)">Projetos</text>
+    <text x="1180" y="45" fill="rgba(255,255,255,0.7)">Contato</text>
+  </g>
+  
+  <!-- Linha sutil de sombra embaixo -->
+  <line x1="0" y1="80" x2="1200" y2="80" stroke="rgba(0,0,0,0.1)" stroke-width="2"/>
+</svg>
