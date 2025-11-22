@@ -363,9 +363,9 @@ textarea:focus {
 /* Toaster de feedback do formulário */
 #form-feedback {
   position: fixed;
-  top: 24px;
+  top: 86px;
   right: 24px;
-  z-index: 9999;
+  z-index: 10000;
   padding: 18px 24px;
   border-radius: 12px;
   font-size: 0.95rem !important;
@@ -459,7 +459,7 @@ textarea:focus {
 @media (max-width: 576px) {
   #form-feedback {
     position: fixed !important;
-    top: 90px !important;
+    top: 200px !important;
     right: 12px !important;
     left: 12px !important;
     min-width: auto !important;
@@ -467,12 +467,13 @@ textarea:focus {
     padding: 16px 20px !important;
     font-size: 0.9rem !important;
     z-index: 10000 !important;
-    transform: translateY(-150px) scale(0.95) !important;
+    opacity: 0 !important;
+    transform: translateX(450px) scale(0.95) !important;
   }
 
   #form-feedback.show {
     opacity: 1 !important;
-    transform: translateY(0) scale(1) !important;
+    transform: translateX(0) scale(1) !important;
     pointer-events: auto !important;
   }
 
