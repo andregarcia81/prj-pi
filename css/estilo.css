@@ -345,6 +345,13 @@ textarea:focus {
     padding-left: 12px;
     padding-right: 12px;
   }
+
+  /* Centralizar texto do rodapé em smartphones */
+  .site-footer p {
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 0 10px;
+  }
 }
 
 /* Toaster de feedback do formulário */
@@ -445,16 +452,22 @@ textarea:focus {
 /* Responsividade do toaster */
 @media (max-width: 576px) {
   #form-feedback {
-    top: 16px;
-    right: 16px;
-    left: 16px;
+    top: 80px;
+    right: 12px;
+    left: 12px;
     min-width: auto;
     max-width: none;
-    transform: translateY(-120px) scale(0.9);
+    padding: 16px 20px;
+    font-size: 0.9rem !important;
+    transform: translateY(-150px) scale(0.95);
   }
 
   #form-feedback.show {
     transform: translateY(0) scale(1);
+  }
+
+  #form-feedback::before {
+    font-size: 1.1rem;
   }
 }
 
