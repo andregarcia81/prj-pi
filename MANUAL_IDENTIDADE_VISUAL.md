@@ -1374,6 +1374,7 @@ Para esclarecimentos sobre este manual de identidade visual, entre em contato co
 
 - **E-mail:** andre.garcia17@factec.sp.gov.br, ppconrado@yahoo.com.br ou gustavo.alves52@fatec.sp.gov.br
 - **GitHub Issues:** [https://github.com/andregarcia81/prj-pi/issues](https://github.com/andregarcia81/prj-pi/issues)
+- **Youtube - Video sobre o projeto:** [https://youtu.be/R7napZ2IgDg](https://youtu.be/R7napZ2IgDg)
 
 ---
 
