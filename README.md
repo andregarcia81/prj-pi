@@ -907,9 +907,13 @@ Este projeto é licenciado sob a [MIT License](LICENSE).
 
 ## 👨‍💻 Autores
 
-**Andre Garcia**  
-📧 Email: [andregarcia81@github.com](mailto:andregarcia81@github.com)  
+**Andre Roberto Longo Garcia**  
+📧 Email: [andregarcia17@fatec.sp.gov.br](mailto:andregarcia17@fatec.sp.gov.br)  
 🔗 GitHub: [@andregarcia81](https://github.com/andregarcia81)
+
+**Gustavo Henrique de Carvalho Alves**
+📧 Email: [gustavo.alves52@fatec.sp.gov.br](mailto:gustavo.alves52@fatec.sp.gov.br)  
+🔗 GitHub: [@ghalves3701](https://github.com/ghalves3701)
 
 **Jose Paulo Archetti Conrado**
 📧 Email: [ppconrado@yahoo.com.br](mailto:ppconrado@yahoo.com.br)  
