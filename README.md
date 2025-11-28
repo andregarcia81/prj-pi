@@ -910,6 +910,7 @@ Este projeto é licenciado sob a [MIT License](LICENSE).
 **Andre Roberto Longo Garcia**  
 📧 Email: [andregarcia17@fatec.sp.gov.br](mailto:andregarcia17@fatec.sp.gov.br)  
 🔗 GitHub: [@andregarcia81](https://github.com/andregarcia81)
+🔗 Youtube: [@andregarcia81](https://youtu.be/R7napZ2IgDg) Video do Projeto
 
 **Gustavo Henrique de Carvalho Alves**
 📧 Email: [gustavo.alves52@fatec.sp.gov.br](mailto:gustavo.alves52@fatec.sp.gov.br)  
